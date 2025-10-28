@@ -1,0 +1,1771 @@
+{
+  "metadata": {
+    "version": 1,
+    "root": "/Users/dylan/Workspace/effect/effect-bun-cli",
+    "createdAt": "2025-10-28T03:54:49.939Z",
+    "updatedAt": "2025-10-28T03:54:49.939Z",
+    "totalFiles": 26
+  },
+  "tree": {
+    "name": "effect-bun-cli",
+    "type": "dir",
+    "children": [
+      {
+        "name": "scripts",
+        "type": "dir",
+        "children": [
+          {
+            "name": "build.ts",
+            "type": "file"
+          },
+          {
+            "name": "dev.ts",
+            "type": "file"
+          }
+        ]
+      },
+      {
+        "name": "src",
+        "type": "dir",
+        "children": [
+          {
+            "name": "__tests__",
+            "type": "dir",
+            "children": [
+              {
+                "name": "errors",
+                "type": "dir",
+                "children": [
+                  {
+                    "name": "index.test.ts",
+                    "type": "file"
+                  }
+                ]
+              },
+              {
+                "name": "helpers",
+                "type": "dir",
+                "children": [
+                  {
+                    "name": "index.ts",
+                    "type": "file"
+                  },
+                  {
+                    "name": "testLayers.ts",
+                    "type": "file"
+                  }
+                ]
+              },
+              {
+                "name": "schemas",
+                "type": "dir",
+                "children": [
+                  {
+                    "name": "input.test.ts",
+                    "type": "file"
+                  },
+                  {
+                    "name": "layout.test.ts",
+                    "type": "file"
+                  },
+                  {
+                    "name": "nodes.test.ts",
+                    "type": "file"
+                  },
+                  {
+                    "name": "props.test.ts",
+                    "type": "file"
+                  },
+                  {
+                    "name": "terminal.test.ts",
+                    "type": "file"
+                  }
+                ]
+              },
+              {
+                "name": "types",
+                "type": "dir",
+                "children": [
+                  {
+                    "name": "input.test.ts",
+                    "type": "file"
+                  },
+                  {
+                    "name": "layout.test.ts",
+                    "type": "file"
+                  },
+                  {
+                    "name": "terminal.test.ts",
+                    "type": "file"
+                  }
+                ]
+              },
+              {
+                "name": "sanity.test.ts",
+                "type": "file"
+              }
+            ]
+          },
+          {
+            "name": "errors",
+            "type": "dir",
+            "children": [
+              {
+                "name": "index.ts",
+                "type": "file"
+              }
+            ]
+          },
+          {
+            "name": "schemas",
+            "type": "dir",
+            "children": [
+              {
+                "name": "input.ts",
+                "type": "file"
+              },
+              {
+                "name": "layout.ts",
+                "type": "file"
+              },
+              {
+                "name": "nodes.ts",
+                "type": "file"
+              },
+              {
+                "name": "props.ts",
+                "type": "file"
+              },
+              {
+                "name": "terminal.ts",
+                "type": "file"
+              }
+            ]
+          },
+          {
+            "name": "types",
+            "type": "dir",
+            "children": [
+              {
+                "name": "__tests__",
+                "type": "dir",
+                "children": [
+                  {
+                    "name": "nodes.test.ts",
+                    "type": "file"
+                  }
+                ]
+              },
+              {
+                "name": "input.ts",
+                "type": "file"
+              },
+              {
+                "name": "layout.ts",
+                "type": "file"
+              },
+              {
+                "name": "nodes.ts",
+                "type": "file"
+              },
+              {
+                "name": "terminal.ts",
+                "type": "file"
+              }
+            ]
+          },
+          {
+            "name": "index.ts",
+            "type": "file"
+          }
+        ]
+      }
+    ]
+  },
+  "nodes": [
+    "scripts/build.ts",
+    "scripts/dev.ts",
+    "src/__tests__/errors/index.test.ts",
+    "src/__tests__/helpers/index.ts",
+    "src/__tests__/helpers/testLayers.ts",
+    "src/__tests__/sanity.test.ts",
+    "src/__tests__/schemas/input.test.ts",
+    "src/__tests__/schemas/layout.test.ts",
+    "src/__tests__/schemas/nodes.test.ts",
+    "src/__tests__/schemas/props.test.ts",
+    "src/__tests__/schemas/terminal.test.ts",
+    "src/__tests__/types/input.test.ts",
+    "src/__tests__/types/layout.test.ts",
+    "src/__tests__/types/terminal.test.ts",
+    "src/errors/index.ts",
+    "src/index.ts",
+    "src/schemas/input.ts",
+    "src/schemas/layout.ts",
+    "src/schemas/nodes.ts",
+    "src/schemas/props.ts",
+    "src/schemas/terminal.ts",
+    "src/types/__tests__/nodes.test.ts",
+    "src/types/input.ts",
+    "src/types/layout.ts",
+    "src/types/nodes.ts",
+    "src/types/terminal.ts"
+  ],
+  "edges": [
+    {
+      "from": "src/__tests__/errors/index.test.ts",
+      "to": "src/errors/index.ts"
+    },
+    {
+      "from": "src/__tests__/helpers/index.ts",
+      "to": "src/__tests__/helpers/testLayers.ts"
+    },
+    {
+      "from": "src/__tests__/sanity.test.ts",
+      "to": "src/__tests__/helpers/index.ts"
+    },
+    {
+      "from": "src/__tests__/sanity.test.ts",
+      "to": "src/index.ts"
+    },
+    {
+      "from": "src/__tests__/schemas/input.test.ts",
+      "to": "src/schemas/input.ts"
+    },
+    {
+      "from": "src/__tests__/schemas/layout.test.ts",
+      "to": "src/schemas/layout.ts"
+    },
+    {
+      "from": "src/__tests__/schemas/nodes.test.ts",
+      "to": "src/schemas/nodes.ts"
+    },
+    {
+      "from": "src/__tests__/schemas/props.test.ts",
+      "to": "src/schemas/props.ts"
+    },
+    {
+      "from": "src/__tests__/schemas/terminal.test.ts",
+      "to": "src/schemas/terminal.ts"
+    },
+    {
+      "from": "src/__tests__/types/input.test.ts",
+      "to": "src/types/input.ts"
+    },
+    {
+      "from": "src/__tests__/types/layout.test.ts",
+      "to": "src/types/layout.ts"
+    },
+    {
+      "from": "src/__tests__/types/layout.test.ts",
+      "to": "src/types/nodes.ts"
+    },
+    {
+      "from": "src/__tests__/types/terminal.test.ts",
+      "to": "src/types/nodes.ts"
+    },
+    {
+      "from": "src/__tests__/types/terminal.test.ts",
+      "to": "src/types/terminal.ts"
+    },
+    {
+      "from": "src/schemas/layout.ts",
+      "to": "src/schemas/nodes.ts"
+    },
+    {
+      "from": "src/schemas/nodes.ts",
+      "to": "src/schemas/props.ts"
+    },
+    {
+      "from": "src/types/__tests__/nodes.test.ts",
+      "to": "src/types/nodes.ts"
+    },
+    {
+      "from": "src/types/layout.ts",
+      "to": "src/types/nodes.ts"
+    },
+    {
+      "from": "src/types/terminal.ts",
+      "to": "src/types/nodes.ts"
+    }
+  ],
+  "files": {
+    "scripts/build.ts": {
+      "imports": [
+        {
+          "from": "node:fs",
+          "kind": "import",
+          "imported": [
+            "existsSync"
+          ]
+        },
+        {
+          "from": "node:fs/promises",
+          "kind": "import",
+          "imported": [
+            "mkdir",
+            "rm"
+          ]
+        },
+        {
+          "from": "node:path",
+          "kind": "import",
+          "imported": [
+            "resolve"
+          ]
+        },
+        {
+          "from": "bun",
+          "kind": "import",
+          "imported": [
+            "build"
+          ]
+        }
+      ],
+      "dependencies": [],
+      "functions": [],
+      "classes": [],
+      "constants": [
+        {
+          "name": "__dirname",
+          "initKind": "unknown",
+          "isExported": false
+        },
+        {
+          "name": "rootDir",
+          "initKind": "unknown",
+          "isExported": false
+        },
+        {
+          "name": "distDir",
+          "initKind": "unknown",
+          "isExported": false
+        },
+        {
+          "name": "srcDir",
+          "initKind": "unknown",
+          "isExported": false
+        },
+        {
+          "name": "isDev",
+          "initKind": "unknown",
+          "isExported": false
+        },
+        {
+          "name": "isProd",
+          "initKind": "unknown",
+          "isExported": false
+        }
+      ]
+    },
+    "scripts/dev.ts": {
+      "imports": [
+        {
+          "from": "node:fs",
+          "kind": "import",
+          "imported": [
+            "watch"
+          ]
+        },
+        {
+          "from": "node:path",
+          "kind": "import",
+          "imported": [
+            "resolve"
+          ]
+        }
+      ],
+      "dependencies": [],
+      "functions": [
+        {
+          "name": "clearConsole",
+          "params": [],
+          "isAsync": false,
+          "isExported": false
+        },
+        {
+          "name": "runBuild",
+          "params": [],
+          "isAsync": true,
+          "isExported": false,
+          "returnType": "Promise<boolean>"
+        },
+        {
+          "name": "watchFiles",
+          "params": [],
+          "isAsync": false,
+          "isExported": false
+        },
+        {
+          "name": "main",
+          "params": [],
+          "isAsync": true,
+          "isExported": false
+        }
+      ],
+      "classes": [],
+      "constants": [
+        {
+          "name": "__dirname",
+          "initKind": "unknown",
+          "isExported": false
+        },
+        {
+          "name": "rootDir",
+          "initKind": "unknown",
+          "isExported": false
+        },
+        {
+          "name": "srcDir",
+          "initKind": "unknown",
+          "isExported": false
+        },
+        {
+          "name": "colors",
+          "initKind": "object",
+          "isExported": false
+        }
+      ]
+    },
+    "src/__tests__/errors/index.test.ts": {
+      "imports": [
+        {
+          "from": "bun:test",
+          "kind": "import",
+          "imported": [
+            "describe",
+            "expect",
+            "test"
+          ]
+        },
+        {
+          "from": "effect",
+          "kind": "import",
+          "imported": [
+            "Effect",
+            "Either"
+          ]
+        },
+        {
+          "from": "../../errors/index.js",
+          "kind": "import",
+          "imported": [
+            "FocusError",
+            "focusError",
+            "InkError",
+            "InputError",
+            "inputError",
+            "LayoutError",
+            "layoutError",
+            "OutputError",
+            "outputError",
+            "RenderError",
+            "renderError",
+            "TerminalError",
+            "terminalError"
+          ]
+        }
+      ],
+      "dependencies": [
+        "src/errors/index.ts"
+      ],
+      "functions": [],
+      "classes": [],
+      "constants": []
+    },
+    "src/__tests__/helpers/index.ts": {
+      "imports": [
+        {
+          "from": "./testLayers",
+          "kind": "export",
+          "imported": [
+            "createTestLayer",
+            "runTestEffect",
+            "runTestEffectWithResult"
+          ]
+        }
+      ],
+      "dependencies": [
+        "src/__tests__/helpers/testLayers.ts"
+      ],
+      "functions": [],
+      "classes": [],
+      "constants": []
+    },
+    "src/__tests__/helpers/testLayers.ts": {
+      "imports": [
+        {
+          "from": "effect",
+          "kind": "import",
+          "imported": [
+            "Effect",
+            "Layer"
+          ]
+        },
+        {
+          "from": "effect/Either",
+          "kind": "import",
+          "imported": [
+            "Either"
+          ]
+        }
+      ],
+      "dependencies": [],
+      "functions": [],
+      "classes": [],
+      "constants": [
+        {
+          "name": "runTestEffect",
+          "initKind": "function",
+          "isExported": true
+        },
+        {
+          "name": "runTestEffectWithResult",
+          "initKind": "function",
+          "isExported": true
+        },
+        {
+          "name": "createTestLayer",
+          "initKind": "function",
+          "isExported": true
+        }
+      ]
+    },
+    "src/__tests__/sanity.test.ts": {
+      "imports": [
+        {
+          "from": "bun:test",
+          "kind": "import",
+          "imported": [
+            "describe",
+            "expect",
+            "test"
+          ]
+        },
+        {
+          "from": "effect",
+          "kind": "import",
+          "imported": [
+            "Effect"
+          ]
+        },
+        {
+          "from": "../index",
+          "kind": "import",
+          "isNamespace": true
+        },
+        {
+          "from": "./helpers",
+          "kind": "import",
+          "imported": [
+            "runTestEffect"
+          ]
+        }
+      ],
+      "dependencies": [
+        "src/__tests__/helpers/index.ts",
+        "src/index.ts"
+      ],
+      "functions": [],
+      "classes": [],
+      "constants": []
+    },
+    "src/__tests__/schemas/input.test.ts": {
+      "imports": [
+        {
+          "from": "bun:test",
+          "kind": "import",
+          "imported": [
+            "describe",
+            "expect",
+            "test"
+          ]
+        },
+        {
+          "from": "../../schemas/input.js",
+          "kind": "import",
+          "imported": [
+            "decodeFocusState",
+            "decodeInputEvent",
+            "decodeKey",
+            "decodeKeyModifiers",
+            "decodeKeyPress",
+            "decodeMouseEvent",
+            "decodeResizeEvent"
+          ]
+        }
+      ],
+      "dependencies": [
+        "src/schemas/input.ts"
+      ],
+      "functions": [],
+      "classes": [],
+      "constants": []
+    },
+    "src/__tests__/schemas/layout.test.ts": {
+      "imports": [
+        {
+          "from": "bun:test",
+          "kind": "import",
+          "imported": [
+            "describe",
+            "expect",
+            "test"
+          ]
+        },
+        {
+          "from": "../../schemas/layout.js",
+          "kind": "import",
+          "imported": [
+            "decodeChildLayoutEntry",
+            "decodeLayoutRequest",
+            "decodeLayoutResult"
+          ]
+        }
+      ],
+      "dependencies": [
+        "src/schemas/layout.ts"
+      ],
+      "functions": [],
+      "classes": [],
+      "constants": []
+    },
+    "src/__tests__/schemas/nodes.test.ts": {
+      "imports": [
+        {
+          "from": "bun:test",
+          "kind": "import",
+          "imported": [
+            "describe",
+            "expect",
+            "test"
+          ]
+        },
+        {
+          "from": "../../schemas/nodes.js",
+          "kind": "import",
+          "imported": [
+            "decodeBoxNode",
+            "decodeLayoutInfo",
+            "decodeNewlineNode",
+            "decodeNodeMetadata",
+            "decodeNodeType",
+            "decodeRenderNode",
+            "decodeRootNode",
+            "decodeSpacerNode",
+            "decodeStaticNode",
+            "decodeStyledText",
+            "decodeTextNode",
+            "decodeTextStyle",
+            "decodeTransformNode",
+            "decodeYogaNode"
+          ]
+        }
+      ],
+      "dependencies": [
+        "src/schemas/nodes.ts"
+      ],
+      "functions": [],
+      "classes": [],
+      "constants": [
+        {
+          "name": "createMinimalMetadata",
+          "initKind": "function",
+          "isExported": false
+        }
+      ]
+    },
+    "src/__tests__/schemas/props.test.ts": {
+      "imports": [
+        {
+          "from": "bun:test",
+          "kind": "import",
+          "imported": [
+            "describe",
+            "expect",
+            "test"
+          ]
+        },
+        {
+          "from": "../../schemas/props.js",
+          "kind": "import",
+          "imported": [
+            "decodeAlignItems",
+            "decodeAlignSelf",
+            "decodeBorderStyle",
+            "decodeBoxProps",
+            "decodeColor",
+            "decodeFlexDirection",
+            "decodeHSLColor",
+            "decodeJustifyContent",
+            "decodeRGBColor",
+            "decodeStaticProps",
+            "decodeTextProps",
+            "decodeTransformProps",
+            "decodeWrapMode"
+          ]
+        }
+      ],
+      "dependencies": [
+        "src/schemas/props.ts"
+      ],
+      "functions": [],
+      "classes": [],
+      "constants": []
+    },
+    "src/__tests__/schemas/terminal.test.ts": {
+      "imports": [
+        {
+          "from": "bun:test",
+          "kind": "import",
+          "imported": [
+            "describe",
+            "expect",
+            "test"
+          ]
+        },
+        {
+          "from": "../../schemas/terminal.js",
+          "kind": "import",
+          "imported": [
+            "decodeANTMLCommand",
+            "decodeANTMLOutput",
+            "decodeOutputBuffer",
+            "decodeOutputDiff",
+            "decodeOutputLine",
+            "decodeOutputOperation",
+            "decodeOutputSegment",
+            "decodeRGBColor",
+            "decodeTerminalStyle"
+          ]
+        }
+      ],
+      "dependencies": [
+        "src/schemas/terminal.ts"
+      ],
+      "functions": [],
+      "classes": [],
+      "constants": []
+    },
+    "src/__tests__/types/input.test.ts": {
+      "imports": [
+        {
+          "from": "bun:test",
+          "kind": "import",
+          "imported": [
+            "describe",
+            "expect",
+            "test"
+          ]
+        },
+        {
+          "from": "../../types/input.js",
+          "kind": "import",
+          "imported": [
+            "FocusManager",
+            "FocusState",
+            "InputEvent",
+            "Key",
+            "KeyModifiers",
+            "KeyPress",
+            "MouseEvent",
+            "ResizeEvent"
+          ]
+        }
+      ],
+      "dependencies": [
+        "src/types/input.ts"
+      ],
+      "functions": [],
+      "classes": [],
+      "constants": []
+    },
+    "src/__tests__/types/layout.test.ts": {
+      "imports": [
+        {
+          "from": "bun:test",
+          "kind": "import",
+          "imported": [
+            "describe",
+            "expect",
+            "test"
+          ]
+        },
+        {
+          "from": "../../types/layout.js",
+          "kind": "import",
+          "imported": [
+            "LayoutInfo",
+            "LayoutRequest",
+            "LayoutResult",
+            "YogaNode"
+          ]
+        },
+        {
+          "from": "../../types/nodes.js",
+          "kind": "import",
+          "imported": [
+            "BoxProps"
+          ]
+        }
+      ],
+      "dependencies": [
+        "src/types/layout.ts",
+        "src/types/nodes.ts"
+      ],
+      "functions": [],
+      "classes": [],
+      "constants": []
+    },
+    "src/__tests__/types/terminal.test.ts": {
+      "imports": [
+        {
+          "from": "bun:test",
+          "kind": "import",
+          "imported": [
+            "describe",
+            "expect",
+            "test"
+          ]
+        },
+        {
+          "from": "../../types/nodes.js",
+          "kind": "import",
+          "imported": [
+            "RGBColor"
+          ]
+        },
+        {
+          "from": "../../types/terminal.js",
+          "kind": "import",
+          "imported": [
+            "ANTMLCommand",
+            "ANTMLOutput",
+            "OutputBuffer",
+            "OutputDiff",
+            "OutputLine",
+            "OutputOperation",
+            "OutputSegment",
+            "TerminalStyle"
+          ]
+        }
+      ],
+      "dependencies": [
+        "src/types/nodes.ts",
+        "src/types/terminal.ts"
+      ],
+      "functions": [],
+      "classes": [],
+      "constants": []
+    },
+    "src/errors/index.ts": {
+      "imports": [
+        {
+          "from": "effect",
+          "kind": "import",
+          "imported": [
+            "Data"
+          ]
+        }
+      ],
+      "dependencies": [],
+      "functions": [],
+      "classes": [
+        {
+          "name": "RenderError",
+          "isExported": true,
+          "methods": [],
+          "properties": [],
+          "extends": "Data.TaggedError(\"RenderError\")"
+        },
+        {
+          "name": "LayoutError",
+          "isExported": true,
+          "methods": [],
+          "properties": [],
+          "extends": "Data.TaggedError(\"LayoutError\")"
+        },
+        {
+          "name": "TerminalError",
+          "isExported": true,
+          "methods": [],
+          "properties": [],
+          "extends": "Data.TaggedError(\"TerminalError\")"
+        },
+        {
+          "name": "InputError",
+          "isExported": true,
+          "methods": [],
+          "properties": [],
+          "extends": "Data.TaggedError(\"InputError\")"
+        },
+        {
+          "name": "OutputError",
+          "isExported": true,
+          "methods": [],
+          "properties": [],
+          "extends": "Data.TaggedError(\"OutputError\")"
+        },
+        {
+          "name": "FocusError",
+          "isExported": true,
+          "methods": [],
+          "properties": [],
+          "extends": "Data.TaggedError(\"FocusError\")"
+        }
+      ],
+      "constants": [
+        {
+          "name": "renderError",
+          "initKind": "function",
+          "isExported": true
+        },
+        {
+          "name": "layoutError",
+          "initKind": "function",
+          "isExported": true
+        },
+        {
+          "name": "terminalError",
+          "initKind": "function",
+          "isExported": true
+        },
+        {
+          "name": "inputError",
+          "initKind": "function",
+          "isExported": true
+        },
+        {
+          "name": "outputError",
+          "initKind": "function",
+          "isExported": true
+        },
+        {
+          "name": "focusError",
+          "initKind": "function",
+          "isExported": true
+        }
+      ]
+    },
+    "src/index.ts": {
+      "imports": [],
+      "dependencies": [],
+      "functions": [],
+      "classes": [],
+      "constants": [
+        {
+          "name": "version",
+          "initKind": "literal",
+          "isExported": true
+        },
+        {
+          "name": "ready",
+          "initKind": "literal",
+          "isExported": true
+        }
+      ]
+    },
+    "src/schemas/input.ts": {
+      "imports": [
+        {
+          "from": "@effect/schema",
+          "kind": "import",
+          "imported": [
+            "Schema"
+          ]
+        }
+      ],
+      "dependencies": [],
+      "functions": [],
+      "classes": [],
+      "constants": [
+        {
+          "name": "KeySchema",
+          "initKind": "unknown",
+          "isExported": true
+        },
+        {
+          "name": "decodeKey",
+          "initKind": "unknown",
+          "isExported": true
+        },
+        {
+          "name": "KeyModifiersSchema",
+          "initKind": "unknown",
+          "isExported": true
+        },
+        {
+          "name": "decodeKeyModifiers",
+          "initKind": "unknown",
+          "isExported": true
+        },
+        {
+          "name": "KeyPressSchema",
+          "initKind": "unknown",
+          "isExported": true
+        },
+        {
+          "name": "decodeKeyPress",
+          "initKind": "unknown",
+          "isExported": true
+        },
+        {
+          "name": "MouseEventSchema",
+          "initKind": "unknown",
+          "isExported": true
+        },
+        {
+          "name": "decodeMouseEvent",
+          "initKind": "unknown",
+          "isExported": true
+        },
+        {
+          "name": "ResizeEventSchema",
+          "initKind": "unknown",
+          "isExported": true
+        },
+        {
+          "name": "decodeResizeEvent",
+          "initKind": "unknown",
+          "isExported": true
+        },
+        {
+          "name": "InputEventSchema",
+          "initKind": "unknown",
+          "isExported": true
+        },
+        {
+          "name": "decodeInputEvent",
+          "initKind": "unknown",
+          "isExported": true
+        },
+        {
+          "name": "FocusStateSchema",
+          "initKind": "unknown",
+          "isExported": true
+        },
+        {
+          "name": "decodeFocusState",
+          "initKind": "unknown",
+          "isExported": true
+        }
+      ]
+    },
+    "src/schemas/layout.ts": {
+      "imports": [
+        {
+          "from": "@effect/schema",
+          "kind": "import",
+          "imported": [
+            "Schema"
+          ]
+        },
+        {
+          "from": "./nodes.js",
+          "kind": "import",
+          "imported": [
+            "LayoutInfoSchema"
+          ]
+        }
+      ],
+      "dependencies": [
+        "src/schemas/nodes.ts"
+      ],
+      "functions": [],
+      "classes": [],
+      "constants": [
+        {
+          "name": "LayoutRequestSchema",
+          "initKind": "unknown",
+          "isExported": true
+        },
+        {
+          "name": "decodeLayoutRequest",
+          "initKind": "unknown",
+          "isExported": true
+        },
+        {
+          "name": "LayoutResultSchema",
+          "initKind": "unknown",
+          "isExported": true
+        },
+        {
+          "name": "decodeLayoutResult",
+          "initKind": "unknown",
+          "isExported": true
+        },
+        {
+          "name": "ChildLayoutEntrySchema",
+          "initKind": "unknown",
+          "isExported": true
+        },
+        {
+          "name": "decodeChildLayoutEntry",
+          "initKind": "unknown",
+          "isExported": true
+        }
+      ]
+    },
+    "src/schemas/nodes.ts": {
+      "imports": [
+        {
+          "from": "@effect/schema",
+          "kind": "import",
+          "imported": [
+            "Schema"
+          ]
+        },
+        {
+          "from": "./props.js",
+          "kind": "import",
+          "imported": [
+            "BoxPropsSchema",
+            "StaticPropsSchema",
+            "TextPropsSchema",
+            "TransformPropsSchema"
+          ]
+        }
+      ],
+      "dependencies": [
+        "src/schemas/props.ts"
+      ],
+      "functions": [],
+      "classes": [],
+      "constants": [
+        {
+          "name": "NodeTypeSchema",
+          "initKind": "unknown",
+          "isExported": true
+        },
+        {
+          "name": "decodeNodeType",
+          "initKind": "unknown",
+          "isExported": true
+        },
+        {
+          "name": "LayoutInfoSchema",
+          "initKind": "unknown",
+          "isExported": true
+        },
+        {
+          "name": "decodeLayoutInfo",
+          "initKind": "unknown",
+          "isExported": true
+        },
+        {
+          "name": "NodeMetadataSchema",
+          "initKind": "unknown",
+          "isExported": true
+        },
+        {
+          "name": "decodeNodeMetadata",
+          "initKind": "unknown",
+          "isExported": true
+        },
+        {
+          "name": "YogaNodeSchema",
+          "initKind": "unknown",
+          "isExported": true
+        },
+        {
+          "name": "decodeYogaNode",
+          "initKind": "unknown",
+          "isExported": true
+        },
+        {
+          "name": "TextStyleSchema",
+          "initKind": "unknown",
+          "isExported": true
+        },
+        {
+          "name": "decodeTextStyle",
+          "initKind": "unknown",
+          "isExported": true
+        },
+        {
+          "name": "StyledTextSchema",
+          "initKind": "unknown",
+          "isExported": true
+        },
+        {
+          "name": "decodeStyledText",
+          "initKind": "unknown",
+          "isExported": true
+        },
+        {
+          "name": "RootNodeSchema",
+          "initKind": "unknown",
+          "isExported": true,
+          "type": "Schema.Schema.Any"
+        },
+        {
+          "name": "TextNodeSchema",
+          "initKind": "unknown",
+          "isExported": true,
+          "type": "Schema.Schema.Any"
+        },
+        {
+          "name": "BoxNodeSchema",
+          "initKind": "unknown",
+          "isExported": true,
+          "type": "Schema.Schema.Any"
+        },
+        {
+          "name": "NewlineNodeSchema",
+          "initKind": "unknown",
+          "isExported": true,
+          "type": "Schema.Schema.Any"
+        },
+        {
+          "name": "SpacerNodeSchema",
+          "initKind": "unknown",
+          "isExported": true,
+          "type": "Schema.Schema.Any"
+        },
+        {
+          "name": "StaticNodeSchema",
+          "initKind": "unknown",
+          "isExported": true,
+          "type": "Schema.Schema.Any"
+        },
+        {
+          "name": "TransformNodeSchema",
+          "initKind": "unknown",
+          "isExported": true,
+          "type": "Schema.Schema.Any"
+        },
+        {
+          "name": "RenderNodeSchema",
+          "initKind": "unknown",
+          "isExported": true,
+          "type": "Schema.Schema.Any"
+        },
+        {
+          "name": "decodeRenderNode",
+          "initKind": "unknown",
+          "isExported": true
+        },
+        {
+          "name": "decodeRootNode",
+          "initKind": "unknown",
+          "isExported": true
+        },
+        {
+          "name": "decodeTextNode",
+          "initKind": "unknown",
+          "isExported": true
+        },
+        {
+          "name": "decodeBoxNode",
+          "initKind": "unknown",
+          "isExported": true
+        },
+        {
+          "name": "decodeNewlineNode",
+          "initKind": "unknown",
+          "isExported": true
+        },
+        {
+          "name": "decodeSpacerNode",
+          "initKind": "unknown",
+          "isExported": true
+        },
+        {
+          "name": "decodeStaticNode",
+          "initKind": "unknown",
+          "isExported": true
+        },
+        {
+          "name": "decodeTransformNode",
+          "initKind": "unknown",
+          "isExported": true
+        },
+        {
+          "name": "RenderTreeSchema",
+          "initKind": "unknown",
+          "isExported": true
+        },
+        {
+          "name": "decodeRenderTree",
+          "initKind": "unknown",
+          "isExported": true
+        }
+      ]
+    },
+    "src/schemas/props.ts": {
+      "imports": [
+        {
+          "from": "@effect/schema",
+          "kind": "import",
+          "imported": [
+            "Schema"
+          ]
+        }
+      ],
+      "dependencies": [],
+      "functions": [],
+      "classes": [],
+      "constants": [
+        {
+          "name": "RGBColorSchema",
+          "initKind": "unknown",
+          "isExported": true
+        },
+        {
+          "name": "decodeRGBColor",
+          "initKind": "unknown",
+          "isExported": true
+        },
+        {
+          "name": "HSLColorSchema",
+          "initKind": "unknown",
+          "isExported": true
+        },
+        {
+          "name": "decodeHSLColor",
+          "initKind": "unknown",
+          "isExported": true
+        },
+        {
+          "name": "ColorSchema",
+          "initKind": "unknown",
+          "isExported": true
+        },
+        {
+          "name": "decodeColor",
+          "initKind": "unknown",
+          "isExported": true
+        },
+        {
+          "name": "WrapModeSchema",
+          "initKind": "unknown",
+          "isExported": true
+        },
+        {
+          "name": "decodeWrapMode",
+          "initKind": "unknown",
+          "isExported": true
+        },
+        {
+          "name": "TextPropsSchema",
+          "initKind": "unknown",
+          "isExported": true
+        },
+        {
+          "name": "decodeTextProps",
+          "initKind": "unknown",
+          "isExported": true
+        },
+        {
+          "name": "FlexDirectionSchema",
+          "initKind": "unknown",
+          "isExported": true
+        },
+        {
+          "name": "decodeFlexDirection",
+          "initKind": "unknown",
+          "isExported": true
+        },
+        {
+          "name": "JustifyContentSchema",
+          "initKind": "unknown",
+          "isExported": true
+        },
+        {
+          "name": "decodeJustifyContent",
+          "initKind": "unknown",
+          "isExported": true
+        },
+        {
+          "name": "AlignItemsSchema",
+          "initKind": "unknown",
+          "isExported": true
+        },
+        {
+          "name": "decodeAlignItems",
+          "initKind": "unknown",
+          "isExported": true
+        },
+        {
+          "name": "AlignSelfSchema",
+          "initKind": "unknown",
+          "isExported": true
+        },
+        {
+          "name": "decodeAlignSelf",
+          "initKind": "unknown",
+          "isExported": true
+        },
+        {
+          "name": "PositionSchema",
+          "initKind": "unknown",
+          "isExported": true
+        },
+        {
+          "name": "decodePosition",
+          "initKind": "unknown",
+          "isExported": true
+        },
+        {
+          "name": "BorderStyleSchema",
+          "initKind": "unknown",
+          "isExported": true
+        },
+        {
+          "name": "decodeBorderStyle",
+          "initKind": "unknown",
+          "isExported": true
+        },
+        {
+          "name": "DimensionSchema",
+          "initKind": "unknown",
+          "isExported": true
+        },
+        {
+          "name": "NonNegativeNumberSchema",
+          "initKind": "unknown",
+          "isExported": true
+        },
+        {
+          "name": "BoxPropsSchema",
+          "initKind": "unknown",
+          "isExported": true
+        },
+        {
+          "name": "decodeBoxProps",
+          "initKind": "unknown",
+          "isExported": true
+        },
+        {
+          "name": "StaticPropsSchema",
+          "initKind": "unknown",
+          "isExported": true
+        },
+        {
+          "name": "decodeStaticProps",
+          "initKind": "unknown",
+          "isExported": true
+        },
+        {
+          "name": "TransformPropsSchema",
+          "initKind": "unknown",
+          "isExported": true
+        },
+        {
+          "name": "decodeTransformProps",
+          "initKind": "unknown",
+          "isExported": true
+        }
+      ]
+    },
+    "src/schemas/terminal.ts": {
+      "imports": [
+        {
+          "from": "@effect/schema",
+          "kind": "import",
+          "imported": [
+            "Schema"
+          ]
+        }
+      ],
+      "dependencies": [],
+      "functions": [],
+      "classes": [],
+      "constants": [
+        {
+          "name": "RGBColorSchema",
+          "initKind": "unknown",
+          "isExported": true
+        },
+        {
+          "name": "decodeRGBColor",
+          "initKind": "unknown",
+          "isExported": true
+        },
+        {
+          "name": "TerminalStyleSchema",
+          "initKind": "unknown",
+          "isExported": true
+        },
+        {
+          "name": "decodeTerminalStyle",
+          "initKind": "unknown",
+          "isExported": true
+        },
+        {
+          "name": "OutputSegmentSchema",
+          "initKind": "unknown",
+          "isExported": true
+        },
+        {
+          "name": "decodeOutputSegment",
+          "initKind": "unknown",
+          "isExported": true
+        },
+        {
+          "name": "OutputLineSchema",
+          "initKind": "unknown",
+          "isExported": true
+        },
+        {
+          "name": "decodeOutputLine",
+          "initKind": "unknown",
+          "isExported": true
+        },
+        {
+          "name": "OutputBufferSchema",
+          "initKind": "unknown",
+          "isExported": true
+        },
+        {
+          "name": "decodeOutputBuffer",
+          "initKind": "unknown",
+          "isExported": true
+        },
+        {
+          "name": "ANTMLOutputSchema",
+          "initKind": "unknown",
+          "isExported": true
+        },
+        {
+          "name": "decodeANTMLOutput",
+          "initKind": "unknown",
+          "isExported": true
+        },
+        {
+          "name": "ANTMLCommandSchema",
+          "initKind": "unknown",
+          "isExported": true
+        },
+        {
+          "name": "decodeANTMLCommand",
+          "initKind": "unknown",
+          "isExported": true
+        },
+        {
+          "name": "OutputOperationSchema",
+          "initKind": "unknown",
+          "isExported": true
+        },
+        {
+          "name": "decodeOutputOperation",
+          "initKind": "unknown",
+          "isExported": true
+        },
+        {
+          "name": "OutputDiffSchema",
+          "initKind": "unknown",
+          "isExported": true
+        },
+        {
+          "name": "decodeOutputDiff",
+          "initKind": "unknown",
+          "isExported": true
+        }
+      ]
+    },
+    "src/types/__tests__/nodes.test.ts": {
+      "imports": [
+        {
+          "from": "bun:test",
+          "kind": "import",
+          "imported": [
+            "describe",
+            "expect",
+            "test"
+          ]
+        },
+        {
+          "from": "../nodes",
+          "kind": "import",
+          "imported": [
+            "BoxNode",
+            "BoxProps",
+            "createNode",
+            "createRenderTree",
+            "isBoxNode",
+            "isNewlineNode",
+            "isRootNode",
+            "isSpacerNode",
+            "isStaticNode",
+            "isTextNode",
+            "isTransformNode",
+            "NewlineNode",
+            "NodeType",
+            "RenderNode",
+            "RootNode",
+            "SpacerNode",
+            "StaticNode",
+            "TextNode",
+            "TextProps",
+            "TransformNode"
+          ]
+        }
+      ],
+      "dependencies": [
+        "src/types/nodes.ts"
+      ],
+      "functions": [],
+      "classes": [],
+      "constants": []
+    },
+    "src/types/input.ts": {
+      "imports": [],
+      "dependencies": [],
+      "functions": [],
+      "classes": [],
+      "constants": []
+    },
+    "src/types/layout.ts": {
+      "imports": [
+        {
+          "from": "./nodes.js",
+          "kind": "import",
+          "imported": [
+            "BoxProps"
+          ]
+        }
+      ],
+      "dependencies": [
+        "src/types/nodes.ts"
+      ],
+      "functions": [],
+      "classes": [],
+      "constants": []
+    },
+    "src/types/nodes.ts": {
+      "imports": [],
+      "dependencies": [],
+      "functions": [
+        {
+          "name": "generateNodeId",
+          "params": [],
+          "isAsync": false,
+          "isExported": false,
+          "returnType": "string"
+        },
+        {
+          "name": "createRenderTree",
+          "params": [],
+          "isAsync": false,
+          "isExported": true,
+          "returnType": "RenderTree"
+        },
+        {
+          "name": "createNode",
+          "params": [
+            {
+              "name": "type",
+              "type": "NodeType"
+            }
+          ],
+          "isAsync": false,
+          "isExported": true,
+          "returnType": "RenderNode"
+        },
+        {
+          "name": "isTextNode",
+          "params": [
+            {
+              "name": "node",
+              "type": "RenderNode"
+            }
+          ],
+          "isAsync": false,
+          "isExported": true,
+          "returnType": "node is TextNode"
+        },
+        {
+          "name": "isBoxNode",
+          "params": [
+            {
+              "name": "node",
+              "type": "RenderNode"
+            }
+          ],
+          "isAsync": false,
+          "isExported": true,
+          "returnType": "node is BoxNode"
+        },
+        {
+          "name": "isNewlineNode",
+          "params": [
+            {
+              "name": "node",
+              "type": "RenderNode"
+            }
+          ],
+          "isAsync": false,
+          "isExported": true,
+          "returnType": "node is NewlineNode"
+        },
+        {
+          "name": "isSpacerNode",
+          "params": [
+            {
+              "name": "node",
+              "type": "RenderNode"
+            }
+          ],
+          "isAsync": false,
+          "isExported": true,
+          "returnType": "node is SpacerNode"
+        },
+        {
+          "name": "isStaticNode",
+          "params": [
+            {
+              "name": "node",
+              "type": "RenderNode"
+            }
+          ],
+          "isAsync": false,
+          "isExported": true,
+          "returnType": "node is StaticNode"
+        },
+        {
+          "name": "isTransformNode",
+          "params": [
+            {
+              "name": "node",
+              "type": "RenderNode"
+            }
+          ],
+          "isAsync": false,
+          "isExported": true,
+          "returnType": "node is TransformNode"
+        },
+        {
+          "name": "isRootNode",
+          "params": [
+            {
+              "name": "node",
+              "type": "RenderNode"
+            }
+          ],
+          "isAsync": false,
+          "isExported": true,
+          "returnType": "node is RootNode"
+        }
+      ],
+      "classes": [],
+      "constants": []
+    },
+    "src/types/terminal.ts": {
+      "imports": [
+        {
+          "from": "./nodes.js",
+          "kind": "import",
+          "imported": [
+            "RGBColor"
+          ]
+        }
+      ],
+      "dependencies": [
+        "src/types/nodes.ts"
+      ],
+      "functions": [],
+      "classes": [],
+      "constants": []
+    }
+  }
+}

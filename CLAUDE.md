@@ -6,3 +6,8 @@
 4. Code Quality: Biome for linting/formatting, strict TS configuration
 5. Resource Management: Proper cleanup via Effect's resource management
 6. Platform Integration: @effect/platform-node for Node.js/Bun compatibility
+
+## Dev Utilities
+
+1. Fast Typescript Analyzer: `bun fta .`
+2. Codebase-map: `bun codebase-map scan` & `bun codebase-map format`
