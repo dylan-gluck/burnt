@@ -232,14 +232,12 @@ export interface LayoutInfo {
 }
 
 /**
- * Yoga node wrapper (opaque type for Yoga layout engine integration)
+ * Yoga node wrapper for layout engine integration
+ *
+ * Note: For full YogaNode interface with methods, see types/layout.ts
+ * This is a simplified version used in RenderNode references.
  */
-export interface YogaNode {
-	nativeNode: unknown; // Native Yoga node (opaque type)
-	id: string; // Corresponding render node ID
-	children: YogaNode[]; // Child Yoga nodes
-	computed: boolean; // Layout computed flag
-}
+export type YogaNode = unknown;
 
 // ============================================================================
 // Node Metadata
@@ -410,159 +408,71 @@ export function createRenderTree(): RenderTree {
 }
 
 /**
+ * Creates base node properties shared by all node types
+ */
+function createBaseNode(id: string, type: NodeType): RenderNodeBase {
+	return {
+		id,
+		type,
+		children: [],
+		parent: null,
+		layoutInfo: null,
+		yogaNode: null,
+		metadata: {
+			key: null,
+			fiberNode: null,
+			mounted: false,
+			needsLayout: false,
+			needsRender: false,
+		},
+	};
+}
+
+/**
+ * Node type-specific property defaults
+ */
+const nodeDefaults: Record<NodeType, Partial<RenderNode>> = {
+	[NodeType.ROOT]: { props: {} },
+	[NodeType.TEXT]: { props: {}, textContent: "", styledContent: [] },
+	[NodeType.BOX]: { props: {} },
+	[NodeType.NEWLINE]: { props: {}, count: 1 },
+	[NodeType.SPACER]: { props: {} },
+	[NodeType.STATIC]: {
+		props: { items: [], children: () => null },
+		frozenContent: "",
+	},
+	[NodeType.TRANSFORM]: {
+		props: { transform: (s: string) => s, children: null },
+		transformedContent: "",
+	},
+};
+
+/**
  * Creates a new render node of the specified type
  */
 export function createNode(type: NodeType): RenderNode {
 	const id = generateNodeId();
-	const baseMetadata: NodeMetadata = {
-		key: null,
-		fiberNode: null,
-		mounted: false,
-		needsLayout: false,
-		needsRender: false,
-	};
+	const base = createBaseNode(id, type);
+	const defaults = nodeDefaults[type];
 
-	switch (type) {
-		case NodeType.ROOT:
-			return {
-				id,
-				type: NodeType.ROOT,
-				props: {},
-				children: [],
-				parent: null,
-				layoutInfo: null,
-				yogaNode: null,
-				metadata: baseMetadata,
-			} as RootNode;
-
-		case NodeType.TEXT:
-			return {
-				id,
-				type: NodeType.TEXT,
-				props: {},
-				children: [],
-				parent: null,
-				layoutInfo: null,
-				yogaNode: null,
-				metadata: baseMetadata,
-				textContent: "",
-				styledContent: [],
-			} as TextNode;
-
-		case NodeType.BOX:
-			return {
-				id,
-				type: NodeType.BOX,
-				props: {},
-				children: [],
-				parent: null,
-				layoutInfo: null,
-				yogaNode: null,
-				metadata: baseMetadata,
-			} as BoxNode;
-
-		case NodeType.NEWLINE:
-			return {
-				id,
-				type: NodeType.NEWLINE,
-				props: {},
-				children: [],
-				parent: null,
-				layoutInfo: null,
-				yogaNode: null,
-				metadata: baseMetadata,
-				count: 1,
-			} as NewlineNode;
-
-		case NodeType.SPACER:
-			return {
-				id,
-				type: NodeType.SPACER,
-				props: {},
-				children: [],
-				parent: null,
-				layoutInfo: null,
-				yogaNode: null,
-				metadata: baseMetadata,
-			} as SpacerNode;
-
-		case NodeType.STATIC:
-			return {
-				id,
-				type: NodeType.STATIC,
-				props: { items: [], children: () => null },
-				children: [],
-				parent: null,
-				layoutInfo: null,
-				yogaNode: null,
-				metadata: baseMetadata,
-				frozenContent: "",
-			} as StaticNode;
-
-		case NodeType.TRANSFORM:
-			return {
-				id,
-				type: NodeType.TRANSFORM,
-				props: { transform: (s) => s, children: null },
-				children: [],
-				parent: null,
-				layoutInfo: null,
-				yogaNode: null,
-				metadata: baseMetadata,
-				transformedContent: "",
-			} as TransformNode;
-
-		default:
-			// TypeScript should catch this, but adding runtime check for safety
-			throw new Error(`Unknown node type: ${type}`);
-	}
+	return { ...base, ...defaults } as RenderNode;
 }
 
-/**
- * Type guard to check if a node is a TextNode
- */
-export function isTextNode(node: RenderNode): node is TextNode {
-	return node.type === NodeType.TEXT;
-}
+// ============================================================================
+// Type Guards
+// ============================================================================
 
-/**
- * Type guard to check if a node is a BoxNode
- */
-export function isBoxNode(node: RenderNode): node is BoxNode {
-	return node.type === NodeType.BOX;
-}
-
-/**
- * Type guard to check if a node is a NewlineNode
- */
-export function isNewlineNode(node: RenderNode): node is NewlineNode {
-	return node.type === NodeType.NEWLINE;
-}
-
-/**
- * Type guard to check if a node is a SpacerNode
- */
-export function isSpacerNode(node: RenderNode): node is SpacerNode {
-	return node.type === NodeType.SPACER;
-}
-
-/**
- * Type guard to check if a node is a StaticNode
- */
-export function isStaticNode(node: RenderNode): node is StaticNode {
-	return node.type === NodeType.STATIC;
-}
-
-/**
- * Type guard to check if a node is a TransformNode
- */
-export function isTransformNode(node: RenderNode): node is TransformNode {
-	return node.type === NodeType.TRANSFORM;
-}
-
-/**
- * Type guard to check if a node is a RootNode
- */
-export function isRootNode(node: RenderNode): node is RootNode {
-	return node.type === NodeType.ROOT;
-}
+export const isTextNode = (node: RenderNode): node is TextNode =>
+	node.type === NodeType.TEXT;
+export const isBoxNode = (node: RenderNode): node is BoxNode =>
+	node.type === NodeType.BOX;
+export const isNewlineNode = (node: RenderNode): node is NewlineNode =>
+	node.type === NodeType.NEWLINE;
+export const isSpacerNode = (node: RenderNode): node is SpacerNode =>
+	node.type === NodeType.SPACER;
+export const isStaticNode = (node: RenderNode): node is StaticNode =>
+	node.type === NodeType.STATIC;
+export const isTransformNode = (node: RenderNode): node is TransformNode =>
+	node.type === NodeType.TRANSFORM;
+export const isRootNode = (node: RenderNode): node is RootNode =>
+	node.type === NodeType.ROOT;

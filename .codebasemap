@@ -2,8 +2,8 @@
   "metadata": {
     "version": 1,
     "root": "/Users/dylan/Workspace/effect/effect-bun-cli",
-    "createdAt": "2025-10-28T03:54:49.939Z",
-    "updatedAt": "2025-10-28T03:54:49.939Z",
+    "createdAt": "2025-10-28T04:28:59.947Z",
+    "updatedAt": "2025-10-28T04:28:59.947Z",
     "totalFiles": 26
   },
   "tree": {
@@ -383,11 +383,81 @@
           "isExported": false
         },
         {
+          "name": "displayBuildOutput",
+          "params": [
+            {
+              "name": "stdout",
+              "type": "string"
+            }
+          ],
+          "isAsync": false,
+          "isExported": false
+        },
+        {
+          "name": "handleBuildSuccess",
+          "params": [
+            {
+              "name": "duration",
+              "type": "string"
+            },
+            {
+              "name": "stdout",
+              "type": "string"
+            }
+          ],
+          "isAsync": false,
+          "isExported": false
+        },
+        {
+          "name": "handleBuildFailure",
+          "params": [
+            {
+              "name": "stderr",
+              "type": "string"
+            },
+            {
+              "name": "stdout",
+              "type": "string"
+            }
+          ],
+          "isAsync": false,
+          "isExported": false
+        },
+        {
+          "name": "executeBuild",
+          "params": [],
+          "isAsync": true,
+          "isExported": false
+        },
+        {
           "name": "runBuild",
           "params": [],
           "isAsync": true,
           "isExported": false,
           "returnType": "Promise<boolean>"
+        },
+        {
+          "name": "shouldRebuildForFile",
+          "params": [
+            {
+              "name": "filename",
+              "type": "string"
+            }
+          ],
+          "isAsync": false,
+          "isExported": false,
+          "returnType": "boolean"
+        },
+        {
+          "name": "handleFileChange",
+          "params": [
+            {
+              "name": "filename",
+              "type": "string | null"
+            }
+          ],
+          "isAsync": true,
+          "isExported": false
         },
         {
           "name": "watchFiles",
@@ -449,18 +519,14 @@
           "from": "../../errors/index.js",
           "kind": "import",
           "imported": [
-            "FocusError",
             "focusError",
             "InkError",
-            "InputError",
             "inputError",
             "LayoutError",
             "layoutError",
-            "OutputError",
             "outputError",
             "RenderError",
             "renderError",
-            "TerminalError",
             "terminalError"
           ]
         }
@@ -470,7 +536,28 @@
       ],
       "functions": [],
       "classes": [],
-      "constants": []
+      "constants": [
+        {
+          "name": "errorFactories",
+          "initKind": "unknown",
+          "isExported": false
+        },
+        {
+          "name": "errorsWithNodeId",
+          "initKind": "unknown",
+          "isExported": false
+        },
+        {
+          "name": "errorsWithCause",
+          "initKind": "unknown",
+          "isExported": false
+        },
+        {
+          "name": "testEffectCatch",
+          "initKind": "function",
+          "isExported": false
+        }
+      ]
     },
     "src/__tests__/helpers/index.ts": {
       "imports": [
@@ -599,7 +686,48 @@
       ],
       "functions": [],
       "classes": [],
-      "constants": []
+      "constants": [
+        {
+          "name": "createKey",
+          "initKind": "function",
+          "isExported": false
+        },
+        {
+          "name": "createModifiers",
+          "initKind": "function",
+          "isExported": false
+        },
+        {
+          "name": "createKeyPress",
+          "initKind": "function",
+          "isExported": false
+        },
+        {
+          "name": "createMouseEvent",
+          "initKind": "function",
+          "isExported": false
+        },
+        {
+          "name": "createResizeEvent",
+          "initKind": "function",
+          "isExported": false
+        },
+        {
+          "name": "createFocusState",
+          "initKind": "function",
+          "isExported": false
+        },
+        {
+          "name": "expectValid",
+          "initKind": "function",
+          "isExported": false
+        },
+        {
+          "name": "expectInvalid",
+          "initKind": "function",
+          "isExported": false
+        }
+      ]
     },
     "src/__tests__/schemas/layout.test.ts": {
       "imports": [
@@ -777,7 +905,43 @@
       ],
       "functions": [],
       "classes": [],
-      "constants": []
+      "constants": [
+        {
+          "name": "createKey",
+          "initKind": "function",
+          "isExported": false
+        },
+        {
+          "name": "createModifiers",
+          "initKind": "function",
+          "isExported": false
+        },
+        {
+          "name": "createKeyPress",
+          "initKind": "function",
+          "isExported": false
+        },
+        {
+          "name": "createMouseEvent",
+          "initKind": "function",
+          "isExported": false
+        },
+        {
+          "name": "createResizeEvent",
+          "initKind": "function",
+          "isExported": false
+        },
+        {
+          "name": "createFocusState",
+          "initKind": "function",
+          "isExported": false
+        },
+        {
+          "name": "createFocusManager",
+          "initKind": "function",
+          "isExported": false
+        }
+      ]
     },
     "src/__tests__/types/layout.test.ts": {
       "imports": [
@@ -814,7 +978,28 @@
       ],
       "functions": [],
       "classes": [],
-      "constants": []
+      "constants": [
+        {
+          "name": "createLayoutInfo",
+          "initKind": "function",
+          "isExported": false
+        },
+        {
+          "name": "createYogaNode",
+          "initKind": "function",
+          "isExported": false
+        },
+        {
+          "name": "createLayoutRequest",
+          "initKind": "function",
+          "isExported": false
+        },
+        {
+          "name": "createLayoutResult",
+          "initKind": "function",
+          "isExported": false
+        }
+      ]
     },
     "src/__tests__/types/terminal.test.ts": {
       "imports": [
@@ -1578,7 +1763,6 @@
           "from": "../nodes",
           "kind": "import",
           "imported": [
-            "BoxNode",
             "BoxProps",
             "createNode",
             "createRenderTree",
@@ -1592,10 +1776,7 @@
             "NewlineNode",
             "NodeType",
             "RenderNode",
-            "RootNode",
-            "SpacerNode",
             "StaticNode",
-            "TextNode",
             "TextProps",
             "TransformNode"
           ]
@@ -1606,7 +1787,18 @@
       ],
       "functions": [],
       "classes": [],
-      "constants": []
+      "constants": [
+        {
+          "name": "baseNodeProperties",
+          "initKind": "array",
+          "isExported": false
+        },
+        {
+          "name": "typeGuards",
+          "initKind": "unknown",
+          "isExported": false
+        }
+      ]
     },
     "src/types/input.ts": {
       "imports": [],
@@ -1651,6 +1843,22 @@
           "returnType": "RenderTree"
         },
         {
+          "name": "createBaseNode",
+          "params": [
+            {
+              "name": "id",
+              "type": "string"
+            },
+            {
+              "name": "type",
+              "type": "NodeType"
+            }
+          ],
+          "isAsync": false,
+          "isExported": false,
+          "returnType": "RenderNodeBase"
+        },
+        {
           "name": "createNode",
           "params": [
             {
@@ -1661,94 +1869,52 @@
           "isAsync": false,
           "isExported": true,
           "returnType": "RenderNode"
-        },
-        {
-          "name": "isTextNode",
-          "params": [
-            {
-              "name": "node",
-              "type": "RenderNode"
-            }
-          ],
-          "isAsync": false,
-          "isExported": true,
-          "returnType": "node is TextNode"
-        },
-        {
-          "name": "isBoxNode",
-          "params": [
-            {
-              "name": "node",
-              "type": "RenderNode"
-            }
-          ],
-          "isAsync": false,
-          "isExported": true,
-          "returnType": "node is BoxNode"
-        },
-        {
-          "name": "isNewlineNode",
-          "params": [
-            {
-              "name": "node",
-              "type": "RenderNode"
-            }
-          ],
-          "isAsync": false,
-          "isExported": true,
-          "returnType": "node is NewlineNode"
-        },
-        {
-          "name": "isSpacerNode",
-          "params": [
-            {
-              "name": "node",
-              "type": "RenderNode"
-            }
-          ],
-          "isAsync": false,
-          "isExported": true,
-          "returnType": "node is SpacerNode"
-        },
-        {
-          "name": "isStaticNode",
-          "params": [
-            {
-              "name": "node",
-              "type": "RenderNode"
-            }
-          ],
-          "isAsync": false,
-          "isExported": true,
-          "returnType": "node is StaticNode"
-        },
-        {
-          "name": "isTransformNode",
-          "params": [
-            {
-              "name": "node",
-              "type": "RenderNode"
-            }
-          ],
-          "isAsync": false,
-          "isExported": true,
-          "returnType": "node is TransformNode"
-        },
-        {
-          "name": "isRootNode",
-          "params": [
-            {
-              "name": "node",
-              "type": "RenderNode"
-            }
-          ],
-          "isAsync": false,
-          "isExported": true,
-          "returnType": "node is RootNode"
         }
       ],
       "classes": [],
-      "constants": []
+      "constants": [
+        {
+          "name": "nodeDefaults",
+          "initKind": "object",
+          "isExported": false,
+          "type": "Record<NodeType, Partial<RenderNode>>"
+        },
+        {
+          "name": "isTextNode",
+          "initKind": "function",
+          "isExported": true
+        },
+        {
+          "name": "isBoxNode",
+          "initKind": "function",
+          "isExported": true
+        },
+        {
+          "name": "isNewlineNode",
+          "initKind": "function",
+          "isExported": true
+        },
+        {
+          "name": "isSpacerNode",
+          "initKind": "function",
+          "isExported": true
+        },
+        {
+          "name": "isStaticNode",
+          "initKind": "function",
+          "isExported": true
+        },
+        {
+          "name": "isTransformNode",
+          "initKind": "function",
+          "isExported": true
+        },
+        {
+          "name": "isRootNode",
+          "initKind": "function",
+          "isExported": true
+        }
+      ]
     },
     "src/types/terminal.ts": {
       "imports": [

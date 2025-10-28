@@ -49,6 +49,56 @@ function clearConsole() {
 }
 
 /**
+ * Format and display relevant build output
+ */
+function displayBuildOutput(stdout: string) {
+	const lines = stdout.split("\n").filter((line) => line.trim());
+	for (const line of lines) {
+		if (line.includes("✓") || line.includes("Output")) {
+			console.log(`  ${colors.dim}${line}${colors.reset}`);
+		}
+	}
+}
+
+/**
+ * Handle successful build
+ */
+function handleBuildSuccess(duration: string, stdout: string) {
+	console.log(
+		`${colors.green}✓ Build completed in ${duration}s${colors.reset}`
+	);
+	if (stdout) displayBuildOutput(stdout);
+}
+
+/**
+ * Handle failed build
+ */
+function handleBuildFailure(stderr: string, stdout: string) {
+	console.log(`${colors.red}✗ Build failed${colors.reset}`);
+	if (stderr) console.error(stderr);
+	if (stdout) console.log(stdout);
+}
+
+/**
+ * Execute build script and capture output
+ */
+async function executeBuild() {
+	const proc = Bun.spawn(["bun", "run", resolve(rootDir, "scripts/build.ts")], {
+		cwd: rootDir,
+		stdout: "pipe",
+		stderr: "pipe",
+	});
+
+	const [stdout, stderr] = await Promise.all([
+		new Response(proc.stdout).text(),
+		new Response(proc.stderr).text(),
+	]);
+
+	await proc.exited;
+	return { exitCode: proc.exitCode, stdout, stderr };
+}
+
+/**
  * Run build process
  */
 async function runBuild(): Promise<boolean> {
@@ -64,57 +114,23 @@ async function runBuild(): Promise<boolean> {
 		console.log(`${colors.yellow}⚡ Building...${colors.reset}`);
 		const startTime = performance.now();
 
-		const proc = Bun.spawn(
-			["bun", "run", resolve(rootDir, "scripts/build.ts")],
-			{
-				cwd: rootDir,
-				stdout: "pipe",
-				stderr: "pipe",
-			}
-		);
+		const { exitCode, stdout, stderr } = await executeBuild();
 
-		const [stdout, stderr] = await Promise.all([
-			new Response(proc.stdout).text(),
-			new Response(proc.stderr).text(),
-		]);
+		const duration = ((performance.now() - startTime) / 1000).toFixed(2);
 
-		await proc.exited;
-
-		const endTime = performance.now();
-		const duration = ((endTime - startTime) / 1000).toFixed(2);
-
-		if (proc.exitCode === 0) {
-			console.log(
-				`${colors.green}✓ Build completed in ${duration}s${colors.reset}`
-			);
-
-			// Show relevant build output
-			if (stdout) {
-				const lines = stdout.split("\n").filter((line) => line.trim());
-				for (const line of lines) {
-					if (line.includes("✓") || line.includes("Output")) {
-						console.log(`  ${colors.dim}${line}${colors.reset}`);
-					}
-				}
-			}
+		if (exitCode === 0) {
+			handleBuildSuccess(duration, stdout);
 		} else {
-			console.log(`${colors.red}✗ Build failed${colors.reset}`);
-			if (stderr) {
-				console.error(stderr);
-			}
-			if (stdout) {
-				console.log(stdout);
-			}
+			handleBuildFailure(stderr, stdout);
 		}
 
-		return proc.exitCode === 0;
+		return exitCode === 0;
 	} catch (error) {
 		console.error(`${colors.red}✗ Build error:${colors.reset}`, error);
 		return false;
 	} finally {
 		isBuilding = false;
 
-		// If a change occurred during build, rebuild
 		if (shouldRebuild) {
 			console.log(
 				`${colors.yellow}⟳ Changes detected, rebuilding...${colors.reset}\n`
@@ -122,6 +138,28 @@ async function runBuild(): Promise<boolean> {
 			await runBuild();
 		}
 	}
+}
+
+/**
+ * Check if file should trigger rebuild
+ */
+function shouldRebuildForFile(filename: string): boolean {
+	if (!filename.endsWith(".ts") && !filename.endsWith(".tsx")) return false;
+	if (filename.includes(".test.")) return false;
+	return true;
+}
+
+/**
+ * Handle file change event
+ */
+async function handleFileChange(filename: string | null) {
+	if (!filename || !shouldRebuildForFile(filename)) return;
+
+	console.log(
+		`${colors.yellow}📝 File changed:${colors.reset} ${colors.dim}${filename}${colors.reset}`
+	);
+	await runBuild();
+	console.log(); // Empty line for readability
 }
 
 /**
@@ -136,27 +174,10 @@ function watchFiles() {
 		srcDir,
 		{ recursive: true },
 		async (_eventType, filename) => {
-			if (!filename) return;
-
-			// Only watch TypeScript files
-			if (!filename.endsWith(".ts") && !filename.endsWith(".tsx")) {
-				return;
-			}
-
-			// Skip test files for rebuild (they don't affect build output)
-			if (filename.includes(".test.")) {
-				return;
-			}
-
-			console.log(
-				`${colors.yellow}📝 File changed:${colors.reset} ${colors.dim}${filename}${colors.reset}`
-			);
-			await runBuild();
-			console.log(); // Empty line for readability
+			await handleFileChange(filename);
 		}
 	);
 
-	// Handle process termination
 	const cleanup = () => {
 		console.log(`\n${colors.yellow}Stopping watch mode...${colors.reset}`);
 		watcher.close();
