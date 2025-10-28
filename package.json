@@ -1,10 +1,9 @@
 {
-	"name": "effect-bun-cli",
-	"version": "0.1.0",
-	"description": "Ink CLI library ported to Bun with Effect - Modern terminal UI framework",
+	"name": "burnt",
+	"version": "0.0.1",
+	"description": "Burnt terminal UI framework",
 	"module": "src/index.ts",
 	"type": "module",
-	"private": true,
 	"scripts": {
 		"test": "bun test",
 		"test:watch": "bun test --watch",

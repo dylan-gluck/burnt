@@ -1,13 +1,13 @@
 {
   "metadata": {
     "version": 1,
-    "root": "/Users/dylan/Workspace/effect/effect-bun-cli",
-    "createdAt": "2025-10-28T05:10:23.077Z",
-    "updatedAt": "2025-10-28T05:10:23.077Z",
+    "root": "/Users/dylan/Workspace/effect/burnt",
+    "createdAt": "2025-10-28T05:22:39.086Z",
+    "updatedAt": "2025-10-28T05:22:39.086Z",
     "totalFiles": 79
   },
   "tree": {
-    "name": "effect-bun-cli",
+    "name": "burnt",
     "type": "dir",
     "children": [
       {
