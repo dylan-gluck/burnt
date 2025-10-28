@@ -1,5 +1,5 @@
 {
-  "name": "effect-bun-cli",
+	"name": "effect-bun-cli",
 	"module": "src/index.ts",
 	"type": "module",
 	"private": true,
