@@ -2,8 +2,8 @@
   "metadata": {
     "version": 1,
     "root": "/Users/dylan/Workspace/effect/burnt",
-    "createdAt": "2025-10-28T05:33:16.042Z",
-    "updatedAt": "2025-10-28T05:33:16.042Z",
+    "createdAt": "2025-10-28T07:05:10.116Z",
+    "updatedAt": "2025-10-28T07:05:10.116Z",
     "totalFiles": 79
   },
   "tree": {
@@ -14,308 +14,6 @@
         "name": "src",
         "type": "dir",
         "children": [
-          {
-            "name": "__tests__",
-            "type": "dir",
-            "children": [
-              {
-                "name": "errors",
-                "type": "dir",
-                "children": [
-                  {
-                    "name": "index.test.ts",
-                    "type": "file"
-                  }
-                ]
-              },
-              {
-                "name": "helpers",
-                "type": "dir",
-                "children": [
-                  {
-                    "name": "index.ts",
-                    "type": "file"
-                  },
-                  {
-                    "name": "testLayers.ts",
-                    "type": "file"
-                  }
-                ]
-              },
-              {
-                "name": "schemas",
-                "type": "dir",
-                "children": [
-                  {
-                    "name": "input-focus.test.ts",
-                    "type": "file"
-                  },
-                  {
-                    "name": "input-keypress.test.ts",
-                    "type": "file"
-                  },
-                  {
-                    "name": "input-keys.test.ts",
-                    "type": "file"
-                  },
-                  {
-                    "name": "input-modifiers.test.ts",
-                    "type": "file"
-                  },
-                  {
-                    "name": "input-mouse.test.ts",
-                    "type": "file"
-                  },
-                  {
-                    "name": "input-resize.test.ts",
-                    "type": "file"
-                  },
-                  {
-                    "name": "input-union.test.ts",
-                    "type": "file"
-                  },
-                  {
-                    "name": "layout-children.test.ts",
-                    "type": "file"
-                  },
-                  {
-                    "name": "layout-request.test.ts",
-                    "type": "file"
-                  },
-                  {
-                    "name": "layout-result.test.ts",
-                    "type": "file"
-                  },
-                  {
-                    "name": "nodes-layout.test.ts",
-                    "type": "file"
-                  },
-                  {
-                    "name": "nodes-metadata.test.ts",
-                    "type": "file"
-                  },
-                  {
-                    "name": "nodes-specific.test.ts",
-                    "type": "file"
-                  },
-                  {
-                    "name": "nodes-text-style.test.ts",
-                    "type": "file"
-                  },
-                  {
-                    "name": "nodes-types.test.ts",
-                    "type": "file"
-                  },
-                  {
-                    "name": "nodes-union.test.ts",
-                    "type": "file"
-                  },
-                  {
-                    "name": "nodes-yoga.test.ts",
-                    "type": "file"
-                  },
-                  {
-                    "name": "props-box.test.ts",
-                    "type": "file"
-                  },
-                  {
-                    "name": "props-colors.test.ts",
-                    "type": "file"
-                  },
-                  {
-                    "name": "props-flexbox.test.ts",
-                    "type": "file"
-                  },
-                  {
-                    "name": "props-static.test.ts",
-                    "type": "file"
-                  },
-                  {
-                    "name": "props-text.test.ts",
-                    "type": "file"
-                  },
-                  {
-                    "name": "props-transform.test.ts",
-                    "type": "file"
-                  },
-                  {
-                    "name": "terminal-antml.test.ts",
-                    "type": "file"
-                  },
-                  {
-                    "name": "terminal-buffer.test.ts",
-                    "type": "file"
-                  },
-                  {
-                    "name": "terminal-line.test.ts",
-                    "type": "file"
-                  },
-                  {
-                    "name": "terminal-operations.test.ts",
-                    "type": "file"
-                  },
-                  {
-                    "name": "terminal-rgb-color.test.ts",
-                    "type": "file"
-                  },
-                  {
-                    "name": "terminal-segment.test.ts",
-                    "type": "file"
-                  },
-                  {
-                    "name": "terminal-style.test.ts",
-                    "type": "file"
-                  }
-                ]
-              },
-              {
-                "name": "types",
-                "type": "dir",
-                "children": [
-                  {
-                    "name": "input-composition.test.ts",
-                    "type": "file"
-                  },
-                  {
-                    "name": "input-focus-manager.test.ts",
-                    "type": "file"
-                  },
-                  {
-                    "name": "input-focus-state.test.ts",
-                    "type": "file"
-                  },
-                  {
-                    "name": "input-key.test.ts",
-                    "type": "file"
-                  },
-                  {
-                    "name": "input-keypress.test.ts",
-                    "type": "file"
-                  },
-                  {
-                    "name": "input-modifiers.test.ts",
-                    "type": "file"
-                  },
-                  {
-                    "name": "input-mouse.test.ts",
-                    "type": "file"
-                  },
-                  {
-                    "name": "input-resize.test.ts",
-                    "type": "file"
-                  },
-                  {
-                    "name": "input-union.test.ts",
-                    "type": "file"
-                  },
-                  {
-                    "name": "layout-composition.test.ts",
-                    "type": "file"
-                  },
-                  {
-                    "name": "layout-info.test.ts",
-                    "type": "file"
-                  },
-                  {
-                    "name": "layout-request.test.ts",
-                    "type": "file"
-                  },
-                  {
-                    "name": "layout-result.test.ts",
-                    "type": "file"
-                  },
-                  {
-                    "name": "layout-yoga.test.ts",
-                    "type": "file"
-                  },
-                  {
-                    "name": "nodes-colors.test.ts",
-                    "type": "file"
-                  },
-                  {
-                    "name": "nodes-create.test.ts",
-                    "type": "file"
-                  },
-                  {
-                    "name": "nodes-guards.test.ts",
-                    "type": "file"
-                  },
-                  {
-                    "name": "nodes-integration.test.ts",
-                    "type": "file"
-                  },
-                  {
-                    "name": "nodes-metadata.test.ts",
-                    "type": "file"
-                  },
-                  {
-                    "name": "nodes-narrowing.test.ts",
-                    "type": "file"
-                  },
-                  {
-                    "name": "nodes-props.test.ts",
-                    "type": "file"
-                  },
-                  {
-                    "name": "nodes-render-tree.test.ts",
-                    "type": "file"
-                  },
-                  {
-                    "name": "nodes-structure.test.ts",
-                    "type": "file"
-                  },
-                  {
-                    "name": "nodes-tree-structure.test.ts",
-                    "type": "file"
-                  },
-                  {
-                    "name": "terminal-antml-command.test.ts",
-                    "type": "file"
-                  },
-                  {
-                    "name": "terminal-antml-output.test.ts",
-                    "type": "file"
-                  },
-                  {
-                    "name": "terminal-buffer.test.ts",
-                    "type": "file"
-                  },
-                  {
-                    "name": "terminal-composition.test.ts",
-                    "type": "file"
-                  },
-                  {
-                    "name": "terminal-diff.test.ts",
-                    "type": "file"
-                  },
-                  {
-                    "name": "terminal-line.test.ts",
-                    "type": "file"
-                  },
-                  {
-                    "name": "terminal-operation.test.ts",
-                    "type": "file"
-                  },
-                  {
-                    "name": "terminal-rgb.test.ts",
-                    "type": "file"
-                  },
-                  {
-                    "name": "terminal-segment.test.ts",
-                    "type": "file"
-                  },
-                  {
-                    "name": "terminal-style.test.ts",
-                    "type": "file"
-                  }
-                ]
-              },
-              {
-                "name": "sanity.test.ts",
-                "type": "file"
-              }
-            ]
-          },
           {
             "name": "errors",
             "type": "dir",
@@ -379,78 +77,312 @@
             "type": "file"
           }
         ]
+      },
+      {
+        "name": "tests",
+        "type": "dir",
+        "children": [
+          {
+            "name": "errors",
+            "type": "dir",
+            "children": [
+              {
+                "name": "index.test.ts",
+                "type": "file"
+              }
+            ]
+          },
+          {
+            "name": "helpers",
+            "type": "dir",
+            "children": [
+              {
+                "name": "index.ts",
+                "type": "file"
+              },
+              {
+                "name": "testLayers.ts",
+                "type": "file"
+              }
+            ]
+          },
+          {
+            "name": "schemas",
+            "type": "dir",
+            "children": [
+              {
+                "name": "input-focus.test.ts",
+                "type": "file"
+              },
+              {
+                "name": "input-keypress.test.ts",
+                "type": "file"
+              },
+              {
+                "name": "input-keys.test.ts",
+                "type": "file"
+              },
+              {
+                "name": "input-modifiers.test.ts",
+                "type": "file"
+              },
+              {
+                "name": "input-mouse.test.ts",
+                "type": "file"
+              },
+              {
+                "name": "input-resize.test.ts",
+                "type": "file"
+              },
+              {
+                "name": "input-union.test.ts",
+                "type": "file"
+              },
+              {
+                "name": "layout-children.test.ts",
+                "type": "file"
+              },
+              {
+                "name": "layout-request.test.ts",
+                "type": "file"
+              },
+              {
+                "name": "layout-result.test.ts",
+                "type": "file"
+              },
+              {
+                "name": "nodes-layout.test.ts",
+                "type": "file"
+              },
+              {
+                "name": "nodes-metadata.test.ts",
+                "type": "file"
+              },
+              {
+                "name": "nodes-specific.test.ts",
+                "type": "file"
+              },
+              {
+                "name": "nodes-text-style.test.ts",
+                "type": "file"
+              },
+              {
+                "name": "nodes-types.test.ts",
+                "type": "file"
+              },
+              {
+                "name": "nodes-union.test.ts",
+                "type": "file"
+              },
+              {
+                "name": "nodes-yoga.test.ts",
+                "type": "file"
+              },
+              {
+                "name": "props-box.test.ts",
+                "type": "file"
+              },
+              {
+                "name": "props-colors.test.ts",
+                "type": "file"
+              },
+              {
+                "name": "props-flexbox.test.ts",
+                "type": "file"
+              },
+              {
+                "name": "props-static.test.ts",
+                "type": "file"
+              },
+              {
+                "name": "props-text.test.ts",
+                "type": "file"
+              },
+              {
+                "name": "props-transform.test.ts",
+                "type": "file"
+              },
+              {
+                "name": "terminal-antml.test.ts",
+                "type": "file"
+              },
+              {
+                "name": "terminal-buffer.test.ts",
+                "type": "file"
+              },
+              {
+                "name": "terminal-line.test.ts",
+                "type": "file"
+              },
+              {
+                "name": "terminal-operations.test.ts",
+                "type": "file"
+              },
+              {
+                "name": "terminal-rgb-color.test.ts",
+                "type": "file"
+              },
+              {
+                "name": "terminal-segment.test.ts",
+                "type": "file"
+              },
+              {
+                "name": "terminal-style.test.ts",
+                "type": "file"
+              }
+            ]
+          },
+          {
+            "name": "types",
+            "type": "dir",
+            "children": [
+              {
+                "name": "input-composition.test.ts",
+                "type": "file"
+              },
+              {
+                "name": "input-focus-manager.test.ts",
+                "type": "file"
+              },
+              {
+                "name": "input-focus-state.test.ts",
+                "type": "file"
+              },
+              {
+                "name": "input-key.test.ts",
+                "type": "file"
+              },
+              {
+                "name": "input-keypress.test.ts",
+                "type": "file"
+              },
+              {
+                "name": "input-modifiers.test.ts",
+                "type": "file"
+              },
+              {
+                "name": "input-mouse.test.ts",
+                "type": "file"
+              },
+              {
+                "name": "input-resize.test.ts",
+                "type": "file"
+              },
+              {
+                "name": "input-union.test.ts",
+                "type": "file"
+              },
+              {
+                "name": "layout-composition.test.ts",
+                "type": "file"
+              },
+              {
+                "name": "layout-info.test.ts",
+                "type": "file"
+              },
+              {
+                "name": "layout-request.test.ts",
+                "type": "file"
+              },
+              {
+                "name": "layout-result.test.ts",
+                "type": "file"
+              },
+              {
+                "name": "layout-yoga.test.ts",
+                "type": "file"
+              },
+              {
+                "name": "nodes-colors.test.ts",
+                "type": "file"
+              },
+              {
+                "name": "nodes-create.test.ts",
+                "type": "file"
+              },
+              {
+                "name": "nodes-guards.test.ts",
+                "type": "file"
+              },
+              {
+                "name": "nodes-integration.test.ts",
+                "type": "file"
+              },
+              {
+                "name": "nodes-metadata.test.ts",
+                "type": "file"
+              },
+              {
+                "name": "nodes-narrowing.test.ts",
+                "type": "file"
+              },
+              {
+                "name": "nodes-props.test.ts",
+                "type": "file"
+              },
+              {
+                "name": "nodes-render-tree.test.ts",
+                "type": "file"
+              },
+              {
+                "name": "nodes-structure.test.ts",
+                "type": "file"
+              },
+              {
+                "name": "nodes-tree-structure.test.ts",
+                "type": "file"
+              },
+              {
+                "name": "terminal-antml-command.test.ts",
+                "type": "file"
+              },
+              {
+                "name": "terminal-antml-output.test.ts",
+                "type": "file"
+              },
+              {
+                "name": "terminal-buffer.test.ts",
+                "type": "file"
+              },
+              {
+                "name": "terminal-composition.test.ts",
+                "type": "file"
+              },
+              {
+                "name": "terminal-diff.test.ts",
+                "type": "file"
+              },
+              {
+                "name": "terminal-line.test.ts",
+                "type": "file"
+              },
+              {
+                "name": "terminal-operation.test.ts",
+                "type": "file"
+              },
+              {
+                "name": "terminal-rgb.test.ts",
+                "type": "file"
+              },
+              {
+                "name": "terminal-segment.test.ts",
+                "type": "file"
+              },
+              {
+                "name": "terminal-style.test.ts",
+                "type": "file"
+              }
+            ]
+          },
+          {
+            "name": "sanity.test.ts",
+            "type": "file"
+          }
+        ]
       }
     ]
   },
   "nodes": [
-    "src/__tests__/errors/index.test.ts",
-    "src/__tests__/helpers/index.ts",
-    "src/__tests__/helpers/testLayers.ts",
-    "src/__tests__/sanity.test.ts",
-    "src/__tests__/schemas/input-focus.test.ts",
-    "src/__tests__/schemas/input-keypress.test.ts",
-    "src/__tests__/schemas/input-keys.test.ts",
-    "src/__tests__/schemas/input-modifiers.test.ts",
-    "src/__tests__/schemas/input-mouse.test.ts",
-    "src/__tests__/schemas/input-resize.test.ts",
-    "src/__tests__/schemas/input-union.test.ts",
-    "src/__tests__/schemas/layout-children.test.ts",
-    "src/__tests__/schemas/layout-request.test.ts",
-    "src/__tests__/schemas/layout-result.test.ts",
-    "src/__tests__/schemas/nodes-layout.test.ts",
-    "src/__tests__/schemas/nodes-metadata.test.ts",
-    "src/__tests__/schemas/nodes-specific.test.ts",
-    "src/__tests__/schemas/nodes-text-style.test.ts",
-    "src/__tests__/schemas/nodes-types.test.ts",
-    "src/__tests__/schemas/nodes-union.test.ts",
-    "src/__tests__/schemas/nodes-yoga.test.ts",
-    "src/__tests__/schemas/props-box.test.ts",
-    "src/__tests__/schemas/props-colors.test.ts",
-    "src/__tests__/schemas/props-flexbox.test.ts",
-    "src/__tests__/schemas/props-static.test.ts",
-    "src/__tests__/schemas/props-text.test.ts",
-    "src/__tests__/schemas/props-transform.test.ts",
-    "src/__tests__/schemas/terminal-antml.test.ts",
-    "src/__tests__/schemas/terminal-buffer.test.ts",
-    "src/__tests__/schemas/terminal-line.test.ts",
-    "src/__tests__/schemas/terminal-operations.test.ts",
-    "src/__tests__/schemas/terminal-rgb-color.test.ts",
-    "src/__tests__/schemas/terminal-segment.test.ts",
-    "src/__tests__/schemas/terminal-style.test.ts",
-    "src/__tests__/types/input-composition.test.ts",
-    "src/__tests__/types/input-focus-manager.test.ts",
-    "src/__tests__/types/input-focus-state.test.ts",
-    "src/__tests__/types/input-key.test.ts",
-    "src/__tests__/types/input-keypress.test.ts",
-    "src/__tests__/types/input-modifiers.test.ts",
-    "src/__tests__/types/input-mouse.test.ts",
-    "src/__tests__/types/input-resize.test.ts",
-    "src/__tests__/types/input-union.test.ts",
-    "src/__tests__/types/layout-composition.test.ts",
-    "src/__tests__/types/layout-info.test.ts",
-    "src/__tests__/types/layout-request.test.ts",
-    "src/__tests__/types/layout-result.test.ts",
-    "src/__tests__/types/layout-yoga.test.ts",
-    "src/__tests__/types/nodes-colors.test.ts",
-    "src/__tests__/types/nodes-create.test.ts",
-    "src/__tests__/types/nodes-guards.test.ts",
-    "src/__tests__/types/nodes-integration.test.ts",
-    "src/__tests__/types/nodes-metadata.test.ts",
-    "src/__tests__/types/nodes-narrowing.test.ts",
-    "src/__tests__/types/nodes-props.test.ts",
-    "src/__tests__/types/nodes-render-tree.test.ts",
-    "src/__tests__/types/nodes-structure.test.ts",
-    "src/__tests__/types/nodes-tree-structure.test.ts",
-    "src/__tests__/types/terminal-antml-command.test.ts",
-    "src/__tests__/types/terminal-antml-output.test.ts",
-    "src/__tests__/types/terminal-buffer.test.ts",
-    "src/__tests__/types/terminal-composition.test.ts",
-    "src/__tests__/types/terminal-diff.test.ts",
-    "src/__tests__/types/terminal-line.test.ts",
-    "src/__tests__/types/terminal-operation.test.ts",
-    "src/__tests__/types/terminal-rgb.test.ts",
-    "src/__tests__/types/terminal-segment.test.ts",
-    "src/__tests__/types/terminal-style.test.ts",
     "src/errors/index.ts",
     "src/index.ts",
     "src/schemas/input.ts",
@@ -461,289 +393,77 @@
     "src/types/input.ts",
     "src/types/layout.ts",
     "src/types/nodes.ts",
-    "src/types/terminal.ts"
+    "src/types/terminal.ts",
+    "tests/errors/index.test.ts",
+    "tests/helpers/index.ts",
+    "tests/helpers/testLayers.ts",
+    "tests/sanity.test.ts",
+    "tests/schemas/input-focus.test.ts",
+    "tests/schemas/input-keypress.test.ts",
+    "tests/schemas/input-keys.test.ts",
+    "tests/schemas/input-modifiers.test.ts",
+    "tests/schemas/input-mouse.test.ts",
+    "tests/schemas/input-resize.test.ts",
+    "tests/schemas/input-union.test.ts",
+    "tests/schemas/layout-children.test.ts",
+    "tests/schemas/layout-request.test.ts",
+    "tests/schemas/layout-result.test.ts",
+    "tests/schemas/nodes-layout.test.ts",
+    "tests/schemas/nodes-metadata.test.ts",
+    "tests/schemas/nodes-specific.test.ts",
+    "tests/schemas/nodes-text-style.test.ts",
+    "tests/schemas/nodes-types.test.ts",
+    "tests/schemas/nodes-union.test.ts",
+    "tests/schemas/nodes-yoga.test.ts",
+    "tests/schemas/props-box.test.ts",
+    "tests/schemas/props-colors.test.ts",
+    "tests/schemas/props-flexbox.test.ts",
+    "tests/schemas/props-static.test.ts",
+    "tests/schemas/props-text.test.ts",
+    "tests/schemas/props-transform.test.ts",
+    "tests/schemas/terminal-antml.test.ts",
+    "tests/schemas/terminal-buffer.test.ts",
+    "tests/schemas/terminal-line.test.ts",
+    "tests/schemas/terminal-operations.test.ts",
+    "tests/schemas/terminal-rgb-color.test.ts",
+    "tests/schemas/terminal-segment.test.ts",
+    "tests/schemas/terminal-style.test.ts",
+    "tests/types/input-composition.test.ts",
+    "tests/types/input-focus-manager.test.ts",
+    "tests/types/input-focus-state.test.ts",
+    "tests/types/input-key.test.ts",
+    "tests/types/input-keypress.test.ts",
+    "tests/types/input-modifiers.test.ts",
+    "tests/types/input-mouse.test.ts",
+    "tests/types/input-resize.test.ts",
+    "tests/types/input-union.test.ts",
+    "tests/types/layout-composition.test.ts",
+    "tests/types/layout-info.test.ts",
+    "tests/types/layout-request.test.ts",
+    "tests/types/layout-result.test.ts",
+    "tests/types/layout-yoga.test.ts",
+    "tests/types/nodes-colors.test.ts",
+    "tests/types/nodes-create.test.ts",
+    "tests/types/nodes-guards.test.ts",
+    "tests/types/nodes-integration.test.ts",
+    "tests/types/nodes-metadata.test.ts",
+    "tests/types/nodes-narrowing.test.ts",
+    "tests/types/nodes-props.test.ts",
+    "tests/types/nodes-render-tree.test.ts",
+    "tests/types/nodes-structure.test.ts",
+    "tests/types/nodes-tree-structure.test.ts",
+    "tests/types/terminal-antml-command.test.ts",
+    "tests/types/terminal-antml-output.test.ts",
+    "tests/types/terminal-buffer.test.ts",
+    "tests/types/terminal-composition.test.ts",
+    "tests/types/terminal-diff.test.ts",
+    "tests/types/terminal-line.test.ts",
+    "tests/types/terminal-operation.test.ts",
+    "tests/types/terminal-rgb.test.ts",
+    "tests/types/terminal-segment.test.ts",
+    "tests/types/terminal-style.test.ts"
   ],
   "edges": [
-    {
-      "from": "src/__tests__/errors/index.test.ts",
-      "to": "src/errors/index.ts"
-    },
-    {
-      "from": "src/__tests__/helpers/index.ts",
-      "to": "src/__tests__/helpers/testLayers.ts"
-    },
-    {
-      "from": "src/__tests__/sanity.test.ts",
-      "to": "src/__tests__/helpers/index.ts"
-    },
-    {
-      "from": "src/__tests__/sanity.test.ts",
-      "to": "src/index.ts"
-    },
-    {
-      "from": "src/__tests__/schemas/input-focus.test.ts",
-      "to": "src/schemas/input.ts"
-    },
-    {
-      "from": "src/__tests__/schemas/input-keypress.test.ts",
-      "to": "src/schemas/input.ts"
-    },
-    {
-      "from": "src/__tests__/schemas/input-keys.test.ts",
-      "to": "src/schemas/input.ts"
-    },
-    {
-      "from": "src/__tests__/schemas/input-modifiers.test.ts",
-      "to": "src/schemas/input.ts"
-    },
-    {
-      "from": "src/__tests__/schemas/input-mouse.test.ts",
-      "to": "src/schemas/input.ts"
-    },
-    {
-      "from": "src/__tests__/schemas/input-resize.test.ts",
-      "to": "src/schemas/input.ts"
-    },
-    {
-      "from": "src/__tests__/schemas/input-union.test.ts",
-      "to": "src/schemas/input.ts"
-    },
-    {
-      "from": "src/__tests__/schemas/layout-children.test.ts",
-      "to": "src/schemas/layout.ts"
-    },
-    {
-      "from": "src/__tests__/schemas/layout-request.test.ts",
-      "to": "src/schemas/layout.ts"
-    },
-    {
-      "from": "src/__tests__/schemas/layout-result.test.ts",
-      "to": "src/schemas/layout.ts"
-    },
-    {
-      "from": "src/__tests__/schemas/nodes-layout.test.ts",
-      "to": "src/schemas/nodes.ts"
-    },
-    {
-      "from": "src/__tests__/schemas/nodes-metadata.test.ts",
-      "to": "src/schemas/nodes.ts"
-    },
-    {
-      "from": "src/__tests__/schemas/nodes-specific.test.ts",
-      "to": "src/schemas/nodes.ts"
-    },
-    {
-      "from": "src/__tests__/schemas/nodes-text-style.test.ts",
-      "to": "src/schemas/nodes.ts"
-    },
-    {
-      "from": "src/__tests__/schemas/nodes-types.test.ts",
-      "to": "src/schemas/nodes.ts"
-    },
-    {
-      "from": "src/__tests__/schemas/nodes-union.test.ts",
-      "to": "src/schemas/nodes.ts"
-    },
-    {
-      "from": "src/__tests__/schemas/nodes-yoga.test.ts",
-      "to": "src/schemas/nodes.ts"
-    },
-    {
-      "from": "src/__tests__/schemas/props-box.test.ts",
-      "to": "src/schemas/props.ts"
-    },
-    {
-      "from": "src/__tests__/schemas/props-colors.test.ts",
-      "to": "src/schemas/props.ts"
-    },
-    {
-      "from": "src/__tests__/schemas/props-flexbox.test.ts",
-      "to": "src/schemas/props.ts"
-    },
-    {
-      "from": "src/__tests__/schemas/props-static.test.ts",
-      "to": "src/schemas/props.ts"
-    },
-    {
-      "from": "src/__tests__/schemas/props-text.test.ts",
-      "to": "src/schemas/props.ts"
-    },
-    {
-      "from": "src/__tests__/schemas/props-transform.test.ts",
-      "to": "src/schemas/props.ts"
-    },
-    {
-      "from": "src/__tests__/schemas/terminal-antml.test.ts",
-      "to": "src/schemas/terminal.ts"
-    },
-    {
-      "from": "src/__tests__/schemas/terminal-buffer.test.ts",
-      "to": "src/schemas/terminal.ts"
-    },
-    {
-      "from": "src/__tests__/schemas/terminal-line.test.ts",
-      "to": "src/schemas/terminal.ts"
-    },
-    {
-      "from": "src/__tests__/schemas/terminal-operations.test.ts",
-      "to": "src/schemas/terminal.ts"
-    },
-    {
-      "from": "src/__tests__/schemas/terminal-rgb-color.test.ts",
-      "to": "src/schemas/terminal.ts"
-    },
-    {
-      "from": "src/__tests__/schemas/terminal-segment.test.ts",
-      "to": "src/schemas/terminal.ts"
-    },
-    {
-      "from": "src/__tests__/schemas/terminal-style.test.ts",
-      "to": "src/schemas/terminal.ts"
-    },
-    {
-      "from": "src/__tests__/types/input-composition.test.ts",
-      "to": "src/types/input.ts"
-    },
-    {
-      "from": "src/__tests__/types/input-focus-manager.test.ts",
-      "to": "src/types/input.ts"
-    },
-    {
-      "from": "src/__tests__/types/input-focus-state.test.ts",
-      "to": "src/types/input.ts"
-    },
-    {
-      "from": "src/__tests__/types/input-key.test.ts",
-      "to": "src/types/input.ts"
-    },
-    {
-      "from": "src/__tests__/types/input-keypress.test.ts",
-      "to": "src/types/input.ts"
-    },
-    {
-      "from": "src/__tests__/types/input-modifiers.test.ts",
-      "to": "src/types/input.ts"
-    },
-    {
-      "from": "src/__tests__/types/input-mouse.test.ts",
-      "to": "src/types/input.ts"
-    },
-    {
-      "from": "src/__tests__/types/input-resize.test.ts",
-      "to": "src/types/input.ts"
-    },
-    {
-      "from": "src/__tests__/types/input-union.test.ts",
-      "to": "src/types/input.ts"
-    },
-    {
-      "from": "src/__tests__/types/layout-composition.test.ts",
-      "to": "src/types/layout.ts"
-    },
-    {
-      "from": "src/__tests__/types/layout-composition.test.ts",
-      "to": "src/types/nodes.ts"
-    },
-    {
-      "from": "src/__tests__/types/layout-info.test.ts",
-      "to": "src/types/layout.ts"
-    },
-    {
-      "from": "src/__tests__/types/layout-request.test.ts",
-      "to": "src/types/layout.ts"
-    },
-    {
-      "from": "src/__tests__/types/layout-result.test.ts",
-      "to": "src/types/layout.ts"
-    },
-    {
-      "from": "src/__tests__/types/layout-yoga.test.ts",
-      "to": "src/types/layout.ts"
-    },
-    {
-      "from": "src/__tests__/types/layout-yoga.test.ts",
-      "to": "src/types/nodes.ts"
-    },
-    {
-      "from": "src/__tests__/types/nodes-colors.test.ts",
-      "to": "src/types/nodes.ts"
-    },
-    {
-      "from": "src/__tests__/types/nodes-create.test.ts",
-      "to": "src/types/nodes.ts"
-    },
-    {
-      "from": "src/__tests__/types/nodes-guards.test.ts",
-      "to": "src/types/nodes.ts"
-    },
-    {
-      "from": "src/__tests__/types/nodes-integration.test.ts",
-      "to": "src/types/nodes.ts"
-    },
-    {
-      "from": "src/__tests__/types/nodes-metadata.test.ts",
-      "to": "src/types/nodes.ts"
-    },
-    {
-      "from": "src/__tests__/types/nodes-narrowing.test.ts",
-      "to": "src/types/nodes.ts"
-    },
-    {
-      "from": "src/__tests__/types/nodes-props.test.ts",
-      "to": "src/types/nodes.ts"
-    },
-    {
-      "from": "src/__tests__/types/nodes-render-tree.test.ts",
-      "to": "src/types/nodes.ts"
-    },
-    {
-      "from": "src/__tests__/types/nodes-structure.test.ts",
-      "to": "src/types/nodes.ts"
-    },
-    {
-      "from": "src/__tests__/types/nodes-tree-structure.test.ts",
-      "to": "src/types/nodes.ts"
-    },
-    {
-      "from": "src/__tests__/types/terminal-antml-command.test.ts",
-      "to": "src/types/terminal.ts"
-    },
-    {
-      "from": "src/__tests__/types/terminal-antml-output.test.ts",
-      "to": "src/types/terminal.ts"
-    },
-    {
-      "from": "src/__tests__/types/terminal-buffer.test.ts",
-      "to": "src/types/terminal.ts"
-    },
-    {
-      "from": "src/__tests__/types/terminal-composition.test.ts",
-      "to": "src/types/terminal.ts"
-    },
-    {
-      "from": "src/__tests__/types/terminal-diff.test.ts",
-      "to": "src/types/terminal.ts"
-    },
-    {
-      "from": "src/__tests__/types/terminal-line.test.ts",
-      "to": "src/types/terminal.ts"
-    },
-    {
-      "from": "src/__tests__/types/terminal-operation.test.ts",
-      "to": "src/types/terminal.ts"
-    },
-    {
-      "from": "src/__tests__/types/terminal-rgb.test.ts",
-      "to": "src/types/nodes.ts"
-    },
-    {
-      "from": "src/__tests__/types/terminal-segment.test.ts",
-      "to": "src/types/terminal.ts"
-    },
-    {
-      "from": "src/__tests__/types/terminal-style.test.ts",
-      "to": "src/types/terminal.ts"
-    },
     {
       "from": "src/schemas/layout.ts",
       "to": "src/schemas/nodes.ts"
@@ -759,2225 +479,289 @@
     {
       "from": "src/types/terminal.ts",
       "to": "src/types/nodes.ts"
+    },
+    {
+      "from": "tests/errors/index.test.ts",
+      "to": "src/errors/index.ts"
+    },
+    {
+      "from": "tests/helpers/index.ts",
+      "to": "tests/helpers/testLayers.ts"
+    },
+    {
+      "from": "tests/sanity.test.ts",
+      "to": "src/index.ts"
+    },
+    {
+      "from": "tests/sanity.test.ts",
+      "to": "tests/helpers/index.ts"
+    },
+    {
+      "from": "tests/schemas/input-focus.test.ts",
+      "to": "src/schemas/input.ts"
+    },
+    {
+      "from": "tests/schemas/input-keypress.test.ts",
+      "to": "src/schemas/input.ts"
+    },
+    {
+      "from": "tests/schemas/input-keys.test.ts",
+      "to": "src/schemas/input.ts"
+    },
+    {
+      "from": "tests/schemas/input-modifiers.test.ts",
+      "to": "src/schemas/input.ts"
+    },
+    {
+      "from": "tests/schemas/input-mouse.test.ts",
+      "to": "src/schemas/input.ts"
+    },
+    {
+      "from": "tests/schemas/input-resize.test.ts",
+      "to": "src/schemas/input.ts"
+    },
+    {
+      "from": "tests/schemas/input-union.test.ts",
+      "to": "src/schemas/input.ts"
+    },
+    {
+      "from": "tests/schemas/layout-children.test.ts",
+      "to": "src/schemas/layout.ts"
+    },
+    {
+      "from": "tests/schemas/layout-request.test.ts",
+      "to": "src/schemas/layout.ts"
+    },
+    {
+      "from": "tests/schemas/layout-result.test.ts",
+      "to": "src/schemas/layout.ts"
+    },
+    {
+      "from": "tests/schemas/nodes-layout.test.ts",
+      "to": "src/schemas/nodes.ts"
+    },
+    {
+      "from": "tests/schemas/nodes-metadata.test.ts",
+      "to": "src/schemas/nodes.ts"
+    },
+    {
+      "from": "tests/schemas/nodes-specific.test.ts",
+      "to": "src/schemas/nodes.ts"
+    },
+    {
+      "from": "tests/schemas/nodes-text-style.test.ts",
+      "to": "src/schemas/nodes.ts"
+    },
+    {
+      "from": "tests/schemas/nodes-types.test.ts",
+      "to": "src/schemas/nodes.ts"
+    },
+    {
+      "from": "tests/schemas/nodes-union.test.ts",
+      "to": "src/schemas/nodes.ts"
+    },
+    {
+      "from": "tests/schemas/nodes-yoga.test.ts",
+      "to": "src/schemas/nodes.ts"
+    },
+    {
+      "from": "tests/schemas/props-box.test.ts",
+      "to": "src/schemas/props.ts"
+    },
+    {
+      "from": "tests/schemas/props-colors.test.ts",
+      "to": "src/schemas/props.ts"
+    },
+    {
+      "from": "tests/schemas/props-flexbox.test.ts",
+      "to": "src/schemas/props.ts"
+    },
+    {
+      "from": "tests/schemas/props-static.test.ts",
+      "to": "src/schemas/props.ts"
+    },
+    {
+      "from": "tests/schemas/props-text.test.ts",
+      "to": "src/schemas/props.ts"
+    },
+    {
+      "from": "tests/schemas/props-transform.test.ts",
+      "to": "src/schemas/props.ts"
+    },
+    {
+      "from": "tests/schemas/terminal-antml.test.ts",
+      "to": "src/schemas/terminal.ts"
+    },
+    {
+      "from": "tests/schemas/terminal-buffer.test.ts",
+      "to": "src/schemas/terminal.ts"
+    },
+    {
+      "from": "tests/schemas/terminal-line.test.ts",
+      "to": "src/schemas/terminal.ts"
+    },
+    {
+      "from": "tests/schemas/terminal-operations.test.ts",
+      "to": "src/schemas/terminal.ts"
+    },
+    {
+      "from": "tests/schemas/terminal-rgb-color.test.ts",
+      "to": "src/schemas/terminal.ts"
+    },
+    {
+      "from": "tests/schemas/terminal-segment.test.ts",
+      "to": "src/schemas/terminal.ts"
+    },
+    {
+      "from": "tests/schemas/terminal-style.test.ts",
+      "to": "src/schemas/terminal.ts"
+    },
+    {
+      "from": "tests/types/input-composition.test.ts",
+      "to": "src/types/input.ts"
+    },
+    {
+      "from": "tests/types/input-focus-manager.test.ts",
+      "to": "src/types/input.ts"
+    },
+    {
+      "from": "tests/types/input-focus-state.test.ts",
+      "to": "src/types/input.ts"
+    },
+    {
+      "from": "tests/types/input-key.test.ts",
+      "to": "src/types/input.ts"
+    },
+    {
+      "from": "tests/types/input-keypress.test.ts",
+      "to": "src/types/input.ts"
+    },
+    {
+      "from": "tests/types/input-modifiers.test.ts",
+      "to": "src/types/input.ts"
+    },
+    {
+      "from": "tests/types/input-mouse.test.ts",
+      "to": "src/types/input.ts"
+    },
+    {
+      "from": "tests/types/input-resize.test.ts",
+      "to": "src/types/input.ts"
+    },
+    {
+      "from": "tests/types/input-union.test.ts",
+      "to": "src/types/input.ts"
+    },
+    {
+      "from": "tests/types/layout-composition.test.ts",
+      "to": "src/types/layout.ts"
+    },
+    {
+      "from": "tests/types/layout-composition.test.ts",
+      "to": "src/types/nodes.ts"
+    },
+    {
+      "from": "tests/types/layout-info.test.ts",
+      "to": "src/types/layout.ts"
+    },
+    {
+      "from": "tests/types/layout-request.test.ts",
+      "to": "src/types/layout.ts"
+    },
+    {
+      "from": "tests/types/layout-result.test.ts",
+      "to": "src/types/layout.ts"
+    },
+    {
+      "from": "tests/types/layout-yoga.test.ts",
+      "to": "src/types/layout.ts"
+    },
+    {
+      "from": "tests/types/layout-yoga.test.ts",
+      "to": "src/types/nodes.ts"
+    },
+    {
+      "from": "tests/types/nodes-colors.test.ts",
+      "to": "src/types/nodes.ts"
+    },
+    {
+      "from": "tests/types/nodes-create.test.ts",
+      "to": "src/types/nodes.ts"
+    },
+    {
+      "from": "tests/types/nodes-guards.test.ts",
+      "to": "src/types/nodes.ts"
+    },
+    {
+      "from": "tests/types/nodes-integration.test.ts",
+      "to": "src/types/nodes.ts"
+    },
+    {
+      "from": "tests/types/nodes-metadata.test.ts",
+      "to": "src/types/nodes.ts"
+    },
+    {
+      "from": "tests/types/nodes-narrowing.test.ts",
+      "to": "src/types/nodes.ts"
+    },
+    {
+      "from": "tests/types/nodes-props.test.ts",
+      "to": "src/types/nodes.ts"
+    },
+    {
+      "from": "tests/types/nodes-render-tree.test.ts",
+      "to": "src/types/nodes.ts"
+    },
+    {
+      "from": "tests/types/nodes-structure.test.ts",
+      "to": "src/types/nodes.ts"
+    },
+    {
+      "from": "tests/types/nodes-tree-structure.test.ts",
+      "to": "src/types/nodes.ts"
+    },
+    {
+      "from": "tests/types/terminal-antml-command.test.ts",
+      "to": "src/types/terminal.ts"
+    },
+    {
+      "from": "tests/types/terminal-antml-output.test.ts",
+      "to": "src/types/terminal.ts"
+    },
+    {
+      "from": "tests/types/terminal-buffer.test.ts",
+      "to": "src/types/terminal.ts"
+    },
+    {
+      "from": "tests/types/terminal-composition.test.ts",
+      "to": "src/types/terminal.ts"
+    },
+    {
+      "from": "tests/types/terminal-diff.test.ts",
+      "to": "src/types/terminal.ts"
+    },
+    {
+      "from": "tests/types/terminal-line.test.ts",
+      "to": "src/types/terminal.ts"
+    },
+    {
+      "from": "tests/types/terminal-operation.test.ts",
+      "to": "src/types/terminal.ts"
+    },
+    {
+      "from": "tests/types/terminal-rgb.test.ts",
+      "to": "src/types/nodes.ts"
+    },
+    {
+      "from": "tests/types/terminal-segment.test.ts",
+      "to": "src/types/terminal.ts"
+    },
+    {
+      "from": "tests/types/terminal-style.test.ts",
+      "to": "src/types/terminal.ts"
     }
   ],
   "files": {
-    "src/__tests__/errors/index.test.ts": {
-      "imports": [
-        {
-          "from": "bun:test",
-          "kind": "import",
-          "imported": [
-            "describe",
-            "expect",
-            "test"
-          ]
-        },
-        {
-          "from": "effect",
-          "kind": "import",
-          "imported": [
-            "Effect",
-            "Either"
-          ]
-        },
-        {
-          "from": "../../errors/index.js",
-          "kind": "import",
-          "imported": [
-            "focusError",
-            "InkError",
-            "inputError",
-            "LayoutError",
-            "layoutError",
-            "outputError",
-            "RenderError",
-            "renderError",
-            "terminalError"
-          ]
-        }
-      ],
-      "dependencies": [
-        "src/errors/index.ts"
-      ],
-      "functions": [],
-      "classes": [],
-      "constants": [
-        {
-          "name": "errorFactories",
-          "initKind": "unknown",
-          "isExported": false
-        },
-        {
-          "name": "errorsWithNodeId",
-          "initKind": "unknown",
-          "isExported": false
-        },
-        {
-          "name": "errorsWithCause",
-          "initKind": "unknown",
-          "isExported": false
-        },
-        {
-          "name": "testEffectCatch",
-          "initKind": "function",
-          "isExported": false
-        }
-      ]
-    },
-    "src/__tests__/helpers/index.ts": {
-      "imports": [
-        {
-          "from": "./testLayers",
-          "kind": "export",
-          "imported": [
-            "createTestLayer",
-            "runTestEffect",
-            "runTestEffectWithResult"
-          ]
-        }
-      ],
-      "dependencies": [
-        "src/__tests__/helpers/testLayers.ts"
-      ],
-      "functions": [],
-      "classes": [],
-      "constants": []
-    },
-    "src/__tests__/helpers/testLayers.ts": {
-      "imports": [
-        {
-          "from": "effect",
-          "kind": "import",
-          "imported": [
-            "Effect",
-            "Layer"
-          ]
-        },
-        {
-          "from": "effect/Either",
-          "kind": "import",
-          "imported": [
-            "Either"
-          ]
-        }
-      ],
-      "dependencies": [],
-      "functions": [],
-      "classes": [],
-      "constants": [
-        {
-          "name": "runTestEffect",
-          "initKind": "function",
-          "isExported": true
-        },
-        {
-          "name": "runTestEffectWithResult",
-          "initKind": "function",
-          "isExported": true
-        },
-        {
-          "name": "createTestLayer",
-          "initKind": "function",
-          "isExported": true
-        }
-      ]
-    },
-    "src/__tests__/sanity.test.ts": {
-      "imports": [
-        {
-          "from": "bun:test",
-          "kind": "import",
-          "imported": [
-            "describe",
-            "expect",
-            "test"
-          ]
-        },
-        {
-          "from": "effect",
-          "kind": "import",
-          "imported": [
-            "Effect"
-          ]
-        },
-        {
-          "from": "../index",
-          "kind": "import",
-          "isNamespace": true
-        },
-        {
-          "from": "./helpers",
-          "kind": "import",
-          "imported": [
-            "runTestEffect"
-          ]
-        }
-      ],
-      "dependencies": [
-        "src/__tests__/helpers/index.ts",
-        "src/index.ts"
-      ],
-      "functions": [],
-      "classes": [],
-      "constants": []
-    },
-    "src/__tests__/schemas/input-focus.test.ts": {
-      "imports": [
-        {
-          "from": "bun:test",
-          "kind": "import",
-          "imported": [
-            "describe",
-            "expect",
-            "test"
-          ]
-        },
-        {
-          "from": "../../schemas/input.js",
-          "kind": "import",
-          "imported": [
-            "decodeFocusState"
-          ]
-        }
-      ],
-      "dependencies": [
-        "src/schemas/input.ts"
-      ],
-      "functions": [],
-      "classes": [],
-      "constants": [
-        {
-          "name": "createFocusState",
-          "initKind": "function",
-          "isExported": false
-        },
-        {
-          "name": "expectValid",
-          "initKind": "function",
-          "isExported": false
-        },
-        {
-          "name": "expectInvalid",
-          "initKind": "function",
-          "isExported": false
-        }
-      ]
-    },
-    "src/__tests__/schemas/input-keypress.test.ts": {
-      "imports": [
-        {
-          "from": "bun:test",
-          "kind": "import",
-          "imported": [
-            "describe",
-            "expect",
-            "test"
-          ]
-        },
-        {
-          "from": "../../schemas/input.js",
-          "kind": "import",
-          "imported": [
-            "decodeKeyPress"
-          ]
-        }
-      ],
-      "dependencies": [
-        "src/schemas/input.ts"
-      ],
-      "functions": [],
-      "classes": [],
-      "constants": [
-        {
-          "name": "createKey",
-          "initKind": "function",
-          "isExported": false
-        },
-        {
-          "name": "createModifiers",
-          "initKind": "function",
-          "isExported": false
-        },
-        {
-          "name": "createKeyPress",
-          "initKind": "function",
-          "isExported": false
-        },
-        {
-          "name": "expectValid",
-          "initKind": "function",
-          "isExported": false
-        },
-        {
-          "name": "expectInvalid",
-          "initKind": "function",
-          "isExported": false
-        }
-      ]
-    },
-    "src/__tests__/schemas/input-keys.test.ts": {
-      "imports": [
-        {
-          "from": "bun:test",
-          "kind": "import",
-          "imported": [
-            "describe",
-            "expect",
-            "test"
-          ]
-        },
-        {
-          "from": "../../schemas/input.js",
-          "kind": "import",
-          "imported": [
-            "decodeKey"
-          ]
-        }
-      ],
-      "dependencies": [
-        "src/schemas/input.ts"
-      ],
-      "functions": [],
-      "classes": [],
-      "constants": [
-        {
-          "name": "createKey",
-          "initKind": "function",
-          "isExported": false
-        },
-        {
-          "name": "expectValid",
-          "initKind": "function",
-          "isExported": false
-        },
-        {
-          "name": "expectInvalid",
-          "initKind": "function",
-          "isExported": false
-        }
-      ]
-    },
-    "src/__tests__/schemas/input-modifiers.test.ts": {
-      "imports": [
-        {
-          "from": "bun:test",
-          "kind": "import",
-          "imported": [
-            "describe",
-            "expect",
-            "test"
-          ]
-        },
-        {
-          "from": "../../schemas/input.js",
-          "kind": "import",
-          "imported": [
-            "decodeKeyModifiers"
-          ]
-        }
-      ],
-      "dependencies": [
-        "src/schemas/input.ts"
-      ],
-      "functions": [],
-      "classes": [],
-      "constants": [
-        {
-          "name": "createModifiers",
-          "initKind": "function",
-          "isExported": false
-        },
-        {
-          "name": "expectValid",
-          "initKind": "function",
-          "isExported": false
-        },
-        {
-          "name": "expectInvalid",
-          "initKind": "function",
-          "isExported": false
-        }
-      ]
-    },
-    "src/__tests__/schemas/input-mouse.test.ts": {
-      "imports": [
-        {
-          "from": "bun:test",
-          "kind": "import",
-          "imported": [
-            "describe",
-            "expect",
-            "test"
-          ]
-        },
-        {
-          "from": "../../schemas/input.js",
-          "kind": "import",
-          "imported": [
-            "decodeMouseEvent"
-          ]
-        }
-      ],
-      "dependencies": [
-        "src/schemas/input.ts"
-      ],
-      "functions": [],
-      "classes": [],
-      "constants": [
-        {
-          "name": "createMouseEvent",
-          "initKind": "function",
-          "isExported": false
-        },
-        {
-          "name": "expectValid",
-          "initKind": "function",
-          "isExported": false
-        },
-        {
-          "name": "expectInvalid",
-          "initKind": "function",
-          "isExported": false
-        }
-      ]
-    },
-    "src/__tests__/schemas/input-resize.test.ts": {
-      "imports": [
-        {
-          "from": "bun:test",
-          "kind": "import",
-          "imported": [
-            "describe",
-            "expect",
-            "test"
-          ]
-        },
-        {
-          "from": "../../schemas/input.js",
-          "kind": "import",
-          "imported": [
-            "decodeResizeEvent"
-          ]
-        }
-      ],
-      "dependencies": [
-        "src/schemas/input.ts"
-      ],
-      "functions": [],
-      "classes": [],
-      "constants": [
-        {
-          "name": "createResizeEvent",
-          "initKind": "function",
-          "isExported": false
-        },
-        {
-          "name": "expectValid",
-          "initKind": "function",
-          "isExported": false
-        },
-        {
-          "name": "expectInvalid",
-          "initKind": "function",
-          "isExported": false
-        }
-      ]
-    },
-    "src/__tests__/schemas/input-union.test.ts": {
-      "imports": [
-        {
-          "from": "bun:test",
-          "kind": "import",
-          "imported": [
-            "describe",
-            "expect",
-            "test"
-          ]
-        },
-        {
-          "from": "../../schemas/input.js",
-          "kind": "import",
-          "imported": [
-            "decodeInputEvent"
-          ]
-        }
-      ],
-      "dependencies": [
-        "src/schemas/input.ts"
-      ],
-      "functions": [],
-      "classes": [],
-      "constants": [
-        {
-          "name": "createKey",
-          "initKind": "function",
-          "isExported": false
-        },
-        {
-          "name": "createModifiers",
-          "initKind": "function",
-          "isExported": false
-        },
-        {
-          "name": "createKeyPress",
-          "initKind": "function",
-          "isExported": false
-        },
-        {
-          "name": "createMouseEvent",
-          "initKind": "function",
-          "isExported": false
-        },
-        {
-          "name": "createResizeEvent",
-          "initKind": "function",
-          "isExported": false
-        },
-        {
-          "name": "expectValid",
-          "initKind": "function",
-          "isExported": false
-        },
-        {
-          "name": "expectInvalid",
-          "initKind": "function",
-          "isExported": false
-        }
-      ]
-    },
-    "src/__tests__/schemas/layout-children.test.ts": {
-      "imports": [
-        {
-          "from": "bun:test",
-          "kind": "import",
-          "imported": [
-            "describe",
-            "expect",
-            "test"
-          ]
-        },
-        {
-          "from": "../../schemas/layout.js",
-          "kind": "import",
-          "imported": [
-            "decodeChildLayoutEntry"
-          ]
-        }
-      ],
-      "dependencies": [
-        "src/schemas/layout.ts"
-      ],
-      "functions": [],
-      "classes": [],
-      "constants": []
-    },
-    "src/__tests__/schemas/layout-request.test.ts": {
-      "imports": [
-        {
-          "from": "bun:test",
-          "kind": "import",
-          "imported": [
-            "describe",
-            "expect",
-            "test"
-          ]
-        },
-        {
-          "from": "../../schemas/layout.js",
-          "kind": "import",
-          "imported": [
-            "decodeLayoutRequest"
-          ]
-        }
-      ],
-      "dependencies": [
-        "src/schemas/layout.ts"
-      ],
-      "functions": [],
-      "classes": [],
-      "constants": []
-    },
-    "src/__tests__/schemas/layout-result.test.ts": {
-      "imports": [
-        {
-          "from": "bun:test",
-          "kind": "import",
-          "imported": [
-            "describe",
-            "expect",
-            "test"
-          ]
-        },
-        {
-          "from": "../../schemas/layout.js",
-          "kind": "import",
-          "imported": [
-            "decodeLayoutResult"
-          ]
-        }
-      ],
-      "dependencies": [
-        "src/schemas/layout.ts"
-      ],
-      "functions": [],
-      "classes": [],
-      "constants": []
-    },
-    "src/__tests__/schemas/nodes-layout.test.ts": {
-      "imports": [
-        {
-          "from": "bun:test",
-          "kind": "import",
-          "imported": [
-            "describe",
-            "expect",
-            "test"
-          ]
-        },
-        {
-          "from": "../../schemas/nodes.js",
-          "kind": "import",
-          "imported": [
-            "decodeLayoutInfo"
-          ]
-        }
-      ],
-      "dependencies": [
-        "src/schemas/nodes.ts"
-      ],
-      "functions": [],
-      "classes": [],
-      "constants": []
-    },
-    "src/__tests__/schemas/nodes-metadata.test.ts": {
-      "imports": [
-        {
-          "from": "bun:test",
-          "kind": "import",
-          "imported": [
-            "describe",
-            "expect",
-            "test"
-          ]
-        },
-        {
-          "from": "../../schemas/nodes.js",
-          "kind": "import",
-          "imported": [
-            "decodeNodeMetadata"
-          ]
-        }
-      ],
-      "dependencies": [
-        "src/schemas/nodes.ts"
-      ],
-      "functions": [],
-      "classes": [],
-      "constants": []
-    },
-    "src/__tests__/schemas/nodes-specific.test.ts": {
-      "imports": [
-        {
-          "from": "bun:test",
-          "kind": "import",
-          "imported": [
-            "describe",
-            "expect",
-            "test"
-          ]
-        },
-        {
-          "from": "../../schemas/nodes.js",
-          "kind": "import",
-          "imported": [
-            "decodeBoxNode",
-            "decodeNewlineNode",
-            "decodeRootNode",
-            "decodeSpacerNode",
-            "decodeStaticNode",
-            "decodeTextNode",
-            "decodeTransformNode"
-          ]
-        }
-      ],
-      "dependencies": [
-        "src/schemas/nodes.ts"
-      ],
-      "functions": [],
-      "classes": [],
-      "constants": [
-        {
-          "name": "createMinimalMetadata",
-          "initKind": "function",
-          "isExported": false
-        }
-      ]
-    },
-    "src/__tests__/schemas/nodes-text-style.test.ts": {
-      "imports": [
-        {
-          "from": "bun:test",
-          "kind": "import",
-          "imported": [
-            "describe",
-            "expect",
-            "test"
-          ]
-        },
-        {
-          "from": "../../schemas/nodes.js",
-          "kind": "import",
-          "imported": [
-            "decodeStyledText",
-            "decodeTextStyle"
-          ]
-        }
-      ],
-      "dependencies": [
-        "src/schemas/nodes.ts"
-      ],
-      "functions": [],
-      "classes": [],
-      "constants": []
-    },
-    "src/__tests__/schemas/nodes-types.test.ts": {
-      "imports": [
-        {
-          "from": "bun:test",
-          "kind": "import",
-          "imported": [
-            "describe",
-            "expect",
-            "test"
-          ]
-        },
-        {
-          "from": "../../schemas/nodes.js",
-          "kind": "import",
-          "imported": [
-            "decodeNodeType"
-          ]
-        }
-      ],
-      "dependencies": [
-        "src/schemas/nodes.ts"
-      ],
-      "functions": [],
-      "classes": [],
-      "constants": []
-    },
-    "src/__tests__/schemas/nodes-union.test.ts": {
-      "imports": [
-        {
-          "from": "bun:test",
-          "kind": "import",
-          "imported": [
-            "describe",
-            "expect",
-            "test"
-          ]
-        },
-        {
-          "from": "../../schemas/nodes.js",
-          "kind": "import",
-          "imported": [
-            "decodeRenderNode"
-          ]
-        }
-      ],
-      "dependencies": [
-        "src/schemas/nodes.ts"
-      ],
-      "functions": [],
-      "classes": [],
-      "constants": [
-        {
-          "name": "createMinimalMetadata",
-          "initKind": "function",
-          "isExported": false
-        }
-      ]
-    },
-    "src/__tests__/schemas/nodes-yoga.test.ts": {
-      "imports": [
-        {
-          "from": "bun:test",
-          "kind": "import",
-          "imported": [
-            "describe",
-            "expect",
-            "test"
-          ]
-        },
-        {
-          "from": "../../schemas/nodes.js",
-          "kind": "import",
-          "imported": [
-            "decodeYogaNode"
-          ]
-        }
-      ],
-      "dependencies": [
-        "src/schemas/nodes.ts"
-      ],
-      "functions": [],
-      "classes": [],
-      "constants": []
-    },
-    "src/__tests__/schemas/props-box.test.ts": {
-      "imports": [
-        {
-          "from": "bun:test",
-          "kind": "import",
-          "imported": [
-            "describe",
-            "expect",
-            "test"
-          ]
-        },
-        {
-          "from": "../../schemas/props.js",
-          "kind": "import",
-          "imported": [
-            "decodeBoxProps"
-          ]
-        }
-      ],
-      "dependencies": [
-        "src/schemas/props.ts"
-      ],
-      "functions": [],
-      "classes": [],
-      "constants": []
-    },
-    "src/__tests__/schemas/props-colors.test.ts": {
-      "imports": [
-        {
-          "from": "bun:test",
-          "kind": "import",
-          "imported": [
-            "describe",
-            "expect",
-            "test"
-          ]
-        },
-        {
-          "from": "../../schemas/props.js",
-          "kind": "import",
-          "imported": [
-            "decodeColor",
-            "decodeHSLColor",
-            "decodeRGBColor"
-          ]
-        }
-      ],
-      "dependencies": [
-        "src/schemas/props.ts"
-      ],
-      "functions": [],
-      "classes": [],
-      "constants": []
-    },
-    "src/__tests__/schemas/props-flexbox.test.ts": {
-      "imports": [
-        {
-          "from": "bun:test",
-          "kind": "import",
-          "imported": [
-            "describe",
-            "expect",
-            "test"
-          ]
-        },
-        {
-          "from": "../../schemas/props.js",
-          "kind": "import",
-          "imported": [
-            "decodeAlignItems",
-            "decodeAlignSelf",
-            "decodeBorderStyle",
-            "decodeFlexDirection",
-            "decodeJustifyContent"
-          ]
-        }
-      ],
-      "dependencies": [
-        "src/schemas/props.ts"
-      ],
-      "functions": [],
-      "classes": [],
-      "constants": []
-    },
-    "src/__tests__/schemas/props-static.test.ts": {
-      "imports": [
-        {
-          "from": "bun:test",
-          "kind": "import",
-          "imported": [
-            "describe",
-            "expect",
-            "test"
-          ]
-        },
-        {
-          "from": "../../schemas/props.js",
-          "kind": "import",
-          "imported": [
-            "decodeStaticProps"
-          ]
-        }
-      ],
-      "dependencies": [
-        "src/schemas/props.ts"
-      ],
-      "functions": [],
-      "classes": [],
-      "constants": []
-    },
-    "src/__tests__/schemas/props-text.test.ts": {
-      "imports": [
-        {
-          "from": "bun:test",
-          "kind": "import",
-          "imported": [
-            "describe",
-            "expect",
-            "test"
-          ]
-        },
-        {
-          "from": "../../schemas/props.js",
-          "kind": "import",
-          "imported": [
-            "decodeTextProps",
-            "decodeWrapMode"
-          ]
-        }
-      ],
-      "dependencies": [
-        "src/schemas/props.ts"
-      ],
-      "functions": [],
-      "classes": [],
-      "constants": []
-    },
-    "src/__tests__/schemas/props-transform.test.ts": {
-      "imports": [
-        {
-          "from": "bun:test",
-          "kind": "import",
-          "imported": [
-            "describe",
-            "expect",
-            "test"
-          ]
-        },
-        {
-          "from": "../../schemas/props.js",
-          "kind": "import",
-          "imported": [
-            "decodeTransformProps"
-          ]
-        }
-      ],
-      "dependencies": [
-        "src/schemas/props.ts"
-      ],
-      "functions": [],
-      "classes": [],
-      "constants": []
-    },
-    "src/__tests__/schemas/terminal-antml.test.ts": {
-      "imports": [
-        {
-          "from": "bun:test",
-          "kind": "import",
-          "imported": [
-            "describe",
-            "expect",
-            "test"
-          ]
-        },
-        {
-          "from": "../../schemas/terminal.js",
-          "kind": "import",
-          "imported": [
-            "decodeANTMLCommand",
-            "decodeANTMLOutput"
-          ]
-        }
-      ],
-      "dependencies": [
-        "src/schemas/terminal.ts"
-      ],
-      "functions": [],
-      "classes": [],
-      "constants": []
-    },
-    "src/__tests__/schemas/terminal-buffer.test.ts": {
-      "imports": [
-        {
-          "from": "bun:test",
-          "kind": "import",
-          "imported": [
-            "describe",
-            "expect",
-            "test"
-          ]
-        },
-        {
-          "from": "../../schemas/terminal.js",
-          "kind": "import",
-          "imported": [
-            "decodeOutputBuffer"
-          ]
-        }
-      ],
-      "dependencies": [
-        "src/schemas/terminal.ts"
-      ],
-      "functions": [],
-      "classes": [],
-      "constants": []
-    },
-    "src/__tests__/schemas/terminal-line.test.ts": {
-      "imports": [
-        {
-          "from": "bun:test",
-          "kind": "import",
-          "imported": [
-            "describe",
-            "expect",
-            "test"
-          ]
-        },
-        {
-          "from": "../../schemas/terminal.js",
-          "kind": "import",
-          "imported": [
-            "decodeOutputLine"
-          ]
-        }
-      ],
-      "dependencies": [
-        "src/schemas/terminal.ts"
-      ],
-      "functions": [],
-      "classes": [],
-      "constants": []
-    },
-    "src/__tests__/schemas/terminal-operations.test.ts": {
-      "imports": [
-        {
-          "from": "bun:test",
-          "kind": "import",
-          "imported": [
-            "describe",
-            "expect",
-            "test"
-          ]
-        },
-        {
-          "from": "../../schemas/terminal.js",
-          "kind": "import",
-          "imported": [
-            "decodeOutputDiff",
-            "decodeOutputOperation"
-          ]
-        }
-      ],
-      "dependencies": [
-        "src/schemas/terminal.ts"
-      ],
-      "functions": [],
-      "classes": [],
-      "constants": []
-    },
-    "src/__tests__/schemas/terminal-rgb-color.test.ts": {
-      "imports": [
-        {
-          "from": "bun:test",
-          "kind": "import",
-          "imported": [
-            "describe",
-            "expect",
-            "test"
-          ]
-        },
-        {
-          "from": "../../schemas/terminal.js",
-          "kind": "import",
-          "imported": [
-            "decodeRGBColor"
-          ]
-        }
-      ],
-      "dependencies": [
-        "src/schemas/terminal.ts"
-      ],
-      "functions": [],
-      "classes": [],
-      "constants": []
-    },
-    "src/__tests__/schemas/terminal-segment.test.ts": {
-      "imports": [
-        {
-          "from": "bun:test",
-          "kind": "import",
-          "imported": [
-            "describe",
-            "expect",
-            "test"
-          ]
-        },
-        {
-          "from": "../../schemas/terminal.js",
-          "kind": "import",
-          "imported": [
-            "decodeOutputSegment"
-          ]
-        }
-      ],
-      "dependencies": [
-        "src/schemas/terminal.ts"
-      ],
-      "functions": [],
-      "classes": [],
-      "constants": []
-    },
-    "src/__tests__/schemas/terminal-style.test.ts": {
-      "imports": [
-        {
-          "from": "bun:test",
-          "kind": "import",
-          "imported": [
-            "describe",
-            "expect",
-            "test"
-          ]
-        },
-        {
-          "from": "../../schemas/terminal.js",
-          "kind": "import",
-          "imported": [
-            "decodeTerminalStyle"
-          ]
-        }
-      ],
-      "dependencies": [
-        "src/schemas/terminal.ts"
-      ],
-      "functions": [],
-      "classes": [],
-      "constants": []
-    },
-    "src/__tests__/types/input-composition.test.ts": {
-      "imports": [
-        {
-          "from": "bun:test",
-          "kind": "import",
-          "imported": [
-            "describe",
-            "expect",
-            "test"
-          ]
-        },
-        {
-          "from": "../../types/input.js",
-          "kind": "import",
-          "imported": [
-            "Key",
-            "KeyModifiers",
-            "KeyPress"
-          ]
-        }
-      ],
-      "dependencies": [
-        "src/types/input.ts"
-      ],
-      "functions": [],
-      "classes": [],
-      "constants": [
-        {
-          "name": "createKey",
-          "initKind": "function",
-          "isExported": false
-        },
-        {
-          "name": "createModifiers",
-          "initKind": "function",
-          "isExported": false
-        },
-        {
-          "name": "createKeyPress",
-          "initKind": "function",
-          "isExported": false
-        }
-      ]
-    },
-    "src/__tests__/types/input-focus-manager.test.ts": {
-      "imports": [
-        {
-          "from": "bun:test",
-          "kind": "import",
-          "imported": [
-            "describe",
-            "expect",
-            "test"
-          ]
-        },
-        {
-          "from": "../../types/input.js",
-          "kind": "import",
-          "imported": [
-            "FocusManager"
-          ]
-        }
-      ],
-      "dependencies": [
-        "src/types/input.ts"
-      ],
-      "functions": [],
-      "classes": [],
-      "constants": [
-        {
-          "name": "createFocusManager",
-          "initKind": "function",
-          "isExported": false
-        }
-      ]
-    },
-    "src/__tests__/types/input-focus-state.test.ts": {
-      "imports": [
-        {
-          "from": "bun:test",
-          "kind": "import",
-          "imported": [
-            "describe",
-            "expect",
-            "test"
-          ]
-        },
-        {
-          "from": "../../types/input.js",
-          "kind": "import",
-          "imported": [
-            "FocusState"
-          ]
-        }
-      ],
-      "dependencies": [
-        "src/types/input.ts"
-      ],
-      "functions": [],
-      "classes": [],
-      "constants": [
-        {
-          "name": "createFocusState",
-          "initKind": "function",
-          "isExported": false
-        }
-      ]
-    },
-    "src/__tests__/types/input-key.test.ts": {
-      "imports": [
-        {
-          "from": "bun:test",
-          "kind": "import",
-          "imported": [
-            "describe",
-            "expect",
-            "test"
-          ]
-        },
-        {
-          "from": "../../types/input.js",
-          "kind": "import",
-          "imported": [
-            "Key"
-          ]
-        }
-      ],
-      "dependencies": [
-        "src/types/input.ts"
-      ],
-      "functions": [],
-      "classes": [],
-      "constants": [
-        {
-          "name": "createKey",
-          "initKind": "function",
-          "isExported": false
-        }
-      ]
-    },
-    "src/__tests__/types/input-keypress.test.ts": {
-      "imports": [
-        {
-          "from": "bun:test",
-          "kind": "import",
-          "imported": [
-            "describe",
-            "expect",
-            "test"
-          ]
-        },
-        {
-          "from": "../../types/input.js",
-          "kind": "import",
-          "imported": [
-            "Key",
-            "KeyModifiers",
-            "KeyPress"
-          ]
-        }
-      ],
-      "dependencies": [
-        "src/types/input.ts"
-      ],
-      "functions": [],
-      "classes": [],
-      "constants": [
-        {
-          "name": "createKey",
-          "initKind": "function",
-          "isExported": false
-        },
-        {
-          "name": "createModifiers",
-          "initKind": "function",
-          "isExported": false
-        },
-        {
-          "name": "createKeyPress",
-          "initKind": "function",
-          "isExported": false
-        }
-      ]
-    },
-    "src/__tests__/types/input-modifiers.test.ts": {
-      "imports": [
-        {
-          "from": "bun:test",
-          "kind": "import",
-          "imported": [
-            "describe",
-            "expect",
-            "test"
-          ]
-        },
-        {
-          "from": "../../types/input.js",
-          "kind": "import",
-          "imported": [
-            "KeyModifiers"
-          ]
-        }
-      ],
-      "dependencies": [
-        "src/types/input.ts"
-      ],
-      "functions": [],
-      "classes": [],
-      "constants": [
-        {
-          "name": "createModifiers",
-          "initKind": "function",
-          "isExported": false
-        }
-      ]
-    },
-    "src/__tests__/types/input-mouse.test.ts": {
-      "imports": [
-        {
-          "from": "bun:test",
-          "kind": "import",
-          "imported": [
-            "describe",
-            "expect",
-            "test"
-          ]
-        },
-        {
-          "from": "../../types/input.js",
-          "kind": "import",
-          "imported": [
-            "MouseEvent"
-          ]
-        }
-      ],
-      "dependencies": [
-        "src/types/input.ts"
-      ],
-      "functions": [],
-      "classes": [],
-      "constants": [
-        {
-          "name": "createMouseEvent",
-          "initKind": "function",
-          "isExported": false
-        }
-      ]
-    },
-    "src/__tests__/types/input-resize.test.ts": {
-      "imports": [
-        {
-          "from": "bun:test",
-          "kind": "import",
-          "imported": [
-            "describe",
-            "expect",
-            "test"
-          ]
-        },
-        {
-          "from": "../../types/input.js",
-          "kind": "import",
-          "imported": [
-            "ResizeEvent"
-          ]
-        }
-      ],
-      "dependencies": [
-        "src/types/input.ts"
-      ],
-      "functions": [],
-      "classes": [],
-      "constants": [
-        {
-          "name": "createResizeEvent",
-          "initKind": "function",
-          "isExported": false
-        }
-      ]
-    },
-    "src/__tests__/types/input-union.test.ts": {
-      "imports": [
-        {
-          "from": "bun:test",
-          "kind": "import",
-          "imported": [
-            "describe",
-            "expect",
-            "test"
-          ]
-        },
-        {
-          "from": "../../types/input.js",
-          "kind": "import",
-          "imported": [
-            "InputEvent",
-            "Key",
-            "KeyModifiers",
-            "KeyPress",
-            "MouseEvent",
-            "ResizeEvent"
-          ]
-        }
-      ],
-      "dependencies": [
-        "src/types/input.ts"
-      ],
-      "functions": [],
-      "classes": [],
-      "constants": [
-        {
-          "name": "createKey",
-          "initKind": "function",
-          "isExported": false
-        },
-        {
-          "name": "createModifiers",
-          "initKind": "function",
-          "isExported": false
-        },
-        {
-          "name": "createKeyPress",
-          "initKind": "function",
-          "isExported": false
-        },
-        {
-          "name": "createMouseEvent",
-          "initKind": "function",
-          "isExported": false
-        },
-        {
-          "name": "createResizeEvent",
-          "initKind": "function",
-          "isExported": false
-        }
-      ]
-    },
-    "src/__tests__/types/layout-composition.test.ts": {
-      "imports": [
-        {
-          "from": "bun:test",
-          "kind": "import",
-          "imported": [
-            "describe",
-            "expect",
-            "test"
-          ]
-        },
-        {
-          "from": "../../types/layout.js",
-          "kind": "import",
-          "imported": [
-            "LayoutInfo",
-            "LayoutRequest",
-            "LayoutResult",
-            "YogaNode"
-          ]
-        },
-        {
-          "from": "../../types/nodes.js",
-          "kind": "import",
-          "imported": [
-            "BoxProps"
-          ]
-        }
-      ],
-      "dependencies": [
-        "src/types/layout.ts",
-        "src/types/nodes.ts"
-      ],
-      "functions": [],
-      "classes": [],
-      "constants": [
-        {
-          "name": "createLayoutInfo",
-          "initKind": "function",
-          "isExported": false
-        },
-        {
-          "name": "createYogaNode",
-          "initKind": "function",
-          "isExported": false
-        },
-        {
-          "name": "createLayoutRequest",
-          "initKind": "function",
-          "isExported": false
-        },
-        {
-          "name": "createLayoutResult",
-          "initKind": "function",
-          "isExported": false
-        }
-      ]
-    },
-    "src/__tests__/types/layout-info.test.ts": {
-      "imports": [
-        {
-          "from": "bun:test",
-          "kind": "import",
-          "imported": [
-            "describe",
-            "expect",
-            "test"
-          ]
-        },
-        {
-          "from": "../../types/layout.js",
-          "kind": "import",
-          "imported": [
-            "LayoutInfo"
-          ]
-        }
-      ],
-      "dependencies": [
-        "src/types/layout.ts"
-      ],
-      "functions": [],
-      "classes": [],
-      "constants": [
-        {
-          "name": "createLayoutInfo",
-          "initKind": "function",
-          "isExported": false
-        }
-      ]
-    },
-    "src/__tests__/types/layout-request.test.ts": {
-      "imports": [
-        {
-          "from": "bun:test",
-          "kind": "import",
-          "imported": [
-            "describe",
-            "expect",
-            "test"
-          ]
-        },
-        {
-          "from": "../../types/layout.js",
-          "kind": "import",
-          "imported": [
-            "LayoutRequest"
-          ]
-        }
-      ],
-      "dependencies": [
-        "src/types/layout.ts"
-      ],
-      "functions": [],
-      "classes": [],
-      "constants": [
-        {
-          "name": "createLayoutRequest",
-          "initKind": "function",
-          "isExported": false
-        }
-      ]
-    },
-    "src/__tests__/types/layout-result.test.ts": {
-      "imports": [
-        {
-          "from": "bun:test",
-          "kind": "import",
-          "imported": [
-            "describe",
-            "expect",
-            "test"
-          ]
-        },
-        {
-          "from": "../../types/layout.js",
-          "kind": "import",
-          "imported": [
-            "LayoutInfo",
-            "LayoutResult"
-          ]
-        }
-      ],
-      "dependencies": [
-        "src/types/layout.ts"
-      ],
-      "functions": [],
-      "classes": [],
-      "constants": [
-        {
-          "name": "createLayoutInfo",
-          "initKind": "function",
-          "isExported": false
-        },
-        {
-          "name": "createLayoutResult",
-          "initKind": "function",
-          "isExported": false
-        }
-      ]
-    },
-    "src/__tests__/types/layout-yoga.test.ts": {
-      "imports": [
-        {
-          "from": "bun:test",
-          "kind": "import",
-          "imported": [
-            "describe",
-            "expect",
-            "test"
-          ]
-        },
-        {
-          "from": "../../types/layout.js",
-          "kind": "import",
-          "imported": [
-            "LayoutInfo",
-            "YogaNode"
-          ]
-        },
-        {
-          "from": "../../types/nodes.js",
-          "kind": "import",
-          "imported": [
-            "BoxProps"
-          ]
-        }
-      ],
-      "dependencies": [
-        "src/types/layout.ts",
-        "src/types/nodes.ts"
-      ],
-      "functions": [],
-      "classes": [],
-      "constants": [
-        {
-          "name": "createLayoutInfo",
-          "initKind": "function",
-          "isExported": false
-        },
-        {
-          "name": "createYogaNode",
-          "initKind": "function",
-          "isExported": false
-        }
-      ]
-    },
-    "src/__tests__/types/nodes-colors.test.ts": {
-      "imports": [
-        {
-          "from": "bun:test",
-          "kind": "import",
-          "imported": [
-            "describe",
-            "expect",
-            "test"
-          ]
-        },
-        {
-          "from": "../../types/nodes",
-          "kind": "import",
-          "imported": [
-            "TextProps"
-          ]
-        }
-      ],
-      "dependencies": [
-        "src/types/nodes.ts"
-      ],
-      "functions": [],
-      "classes": [],
-      "constants": []
-    },
-    "src/__tests__/types/nodes-create.test.ts": {
-      "imports": [
-        {
-          "from": "bun:test",
-          "kind": "import",
-          "imported": [
-            "describe",
-            "expect",
-            "test"
-          ]
-        },
-        {
-          "from": "../../types/nodes",
-          "kind": "import",
-          "imported": [
-            "createNode",
-            "NodeType"
-          ]
-        }
-      ],
-      "dependencies": [
-        "src/types/nodes.ts"
-      ],
-      "functions": [],
-      "classes": [],
-      "constants": []
-    },
-    "src/__tests__/types/nodes-guards.test.ts": {
-      "imports": [
-        {
-          "from": "bun:test",
-          "kind": "import",
-          "imported": [
-            "describe",
-            "expect",
-            "test"
-          ]
-        },
-        {
-          "from": "../../types/nodes",
-          "kind": "import",
-          "imported": [
-            "createNode",
-            "isBoxNode",
-            "isNewlineNode",
-            "isRootNode",
-            "isSpacerNode",
-            "isStaticNode",
-            "isTextNode",
-            "isTransformNode",
-            "NodeType"
-          ]
-        }
-      ],
-      "dependencies": [
-        "src/types/nodes.ts"
-      ],
-      "functions": [],
-      "classes": [],
-      "constants": [
-        {
-          "name": "typeGuards",
-          "initKind": "unknown",
-          "isExported": false
-        }
-      ]
-    },
-    "src/__tests__/types/nodes-integration.test.ts": {
-      "imports": [
-        {
-          "from": "bun:test",
-          "kind": "import",
-          "imported": [
-            "describe",
-            "expect",
-            "test"
-          ]
-        },
-        {
-          "from": "../../types/nodes",
-          "kind": "import",
-          "imported": [
-            "createNode",
-            "createRenderTree",
-            "NodeType",
-            "RenderNode"
-          ]
-        }
-      ],
-      "dependencies": [
-        "src/types/nodes.ts"
-      ],
-      "functions": [],
-      "classes": [],
-      "constants": []
-    },
-    "src/__tests__/types/nodes-metadata.test.ts": {
-      "imports": [
-        {
-          "from": "bun:test",
-          "kind": "import",
-          "imported": [
-            "describe",
-            "expect",
-            "test"
-          ]
-        },
-        {
-          "from": "../../types/nodes",
-          "kind": "import",
-          "imported": [
-            "createNode",
-            "NodeType"
-          ]
-        }
-      ],
-      "dependencies": [
-        "src/types/nodes.ts"
-      ],
-      "functions": [],
-      "classes": [],
-      "constants": []
-    },
-    "src/__tests__/types/nodes-narrowing.test.ts": {
-      "imports": [
-        {
-          "from": "bun:test",
-          "kind": "import",
-          "imported": [
-            "describe",
-            "expect",
-            "test"
-          ]
-        },
-        {
-          "from": "../../types/nodes",
-          "kind": "import",
-          "imported": [
-            "BoxProps",
-            "createNode",
-            "isBoxNode",
-            "isNewlineNode",
-            "isStaticNode",
-            "isTextNode",
-            "isTransformNode",
-            "NodeType",
-            "RenderNode"
-          ]
-        }
-      ],
-      "dependencies": [
-        "src/types/nodes.ts"
-      ],
-      "functions": [],
-      "classes": [],
-      "constants": []
-    },
-    "src/__tests__/types/nodes-props.test.ts": {
-      "imports": [
-        {
-          "from": "bun:test",
-          "kind": "import",
-          "imported": [
-            "describe",
-            "expect",
-            "test"
-          ]
-        },
-        {
-          "from": "../../types/nodes",
-          "kind": "import",
-          "imported": [
-            "BoxProps",
-            "TextProps"
-          ]
-        }
-      ],
-      "dependencies": [
-        "src/types/nodes.ts"
-      ],
-      "functions": [],
-      "classes": [],
-      "constants": []
-    },
-    "src/__tests__/types/nodes-render-tree.test.ts": {
-      "imports": [
-        {
-          "from": "bun:test",
-          "kind": "import",
-          "imported": [
-            "describe",
-            "expect",
-            "test"
-          ]
-        },
-        {
-          "from": "../../types/nodes",
-          "kind": "import",
-          "imported": [
-            "createRenderTree",
-            "NodeType"
-          ]
-        }
-      ],
-      "dependencies": [
-        "src/types/nodes.ts"
-      ],
-      "functions": [],
-      "classes": [],
-      "constants": []
-    },
-    "src/__tests__/types/nodes-structure.test.ts": {
-      "imports": [
-        {
-          "from": "bun:test",
-          "kind": "import",
-          "imported": [
-            "describe",
-            "expect",
-            "test"
-          ]
-        },
-        {
-          "from": "../../types/nodes",
-          "kind": "import",
-          "imported": [
-            "createNode",
-            "NodeType"
-          ]
-        }
-      ],
-      "dependencies": [
-        "src/types/nodes.ts"
-      ],
-      "functions": [],
-      "classes": [],
-      "constants": [
-        {
-          "name": "baseNodeProperties",
-          "initKind": "array",
-          "isExported": false
-        }
-      ]
-    },
-    "src/__tests__/types/nodes-tree-structure.test.ts": {
-      "imports": [
-        {
-          "from": "bun:test",
-          "kind": "import",
-          "imported": [
-            "describe",
-            "expect",
-            "test"
-          ]
-        },
-        {
-          "from": "../../types/nodes",
-          "kind": "import",
-          "imported": [
-            "createNode",
-            "createRenderTree",
-            "NodeType"
-          ]
-        }
-      ],
-      "dependencies": [
-        "src/types/nodes.ts"
-      ],
-      "functions": [],
-      "classes": [],
-      "constants": []
-    },
-    "src/__tests__/types/terminal-antml-command.test.ts": {
-      "imports": [
-        {
-          "from": "bun:test",
-          "kind": "import",
-          "imported": [
-            "describe",
-            "expect",
-            "test"
-          ]
-        },
-        {
-          "from": "../../types/terminal.js",
-          "kind": "import",
-          "imported": [
-            "ANTMLCommand"
-          ]
-        }
-      ],
-      "dependencies": [
-        "src/types/terminal.ts"
-      ],
-      "functions": [],
-      "classes": [],
-      "constants": []
-    },
-    "src/__tests__/types/terminal-antml-output.test.ts": {
-      "imports": [
-        {
-          "from": "bun:test",
-          "kind": "import",
-          "imported": [
-            "describe",
-            "expect",
-            "test"
-          ]
-        },
-        {
-          "from": "../../types/terminal.js",
-          "kind": "import",
-          "imported": [
-            "ANTMLOutput"
-          ]
-        }
-      ],
-      "dependencies": [
-        "src/types/terminal.ts"
-      ],
-      "functions": [],
-      "classes": [],
-      "constants": []
-    },
-    "src/__tests__/types/terminal-buffer.test.ts": {
-      "imports": [
-        {
-          "from": "bun:test",
-          "kind": "import",
-          "imported": [
-            "describe",
-            "expect",
-            "test"
-          ]
-        },
-        {
-          "from": "../../types/terminal.js",
-          "kind": "import",
-          "imported": [
-            "OutputBuffer",
-            "OutputLine"
-          ]
-        }
-      ],
-      "dependencies": [
-        "src/types/terminal.ts"
-      ],
-      "functions": [],
-      "classes": [],
-      "constants": []
-    },
-    "src/__tests__/types/terminal-composition.test.ts": {
-      "imports": [
-        {
-          "from": "bun:test",
-          "kind": "import",
-          "imported": [
-            "describe",
-            "expect",
-            "test"
-          ]
-        },
-        {
-          "from": "../../types/terminal.js",
-          "kind": "import",
-          "imported": [
-            "ANTMLOutput",
-            "OutputBuffer",
-            "OutputDiff",
-            "OutputLine",
-            "OutputSegment"
-          ]
-        }
-      ],
-      "dependencies": [
-        "src/types/terminal.ts"
-      ],
-      "functions": [],
-      "classes": [],
-      "constants": []
-    },
-    "src/__tests__/types/terminal-diff.test.ts": {
-      "imports": [
-        {
-          "from": "bun:test",
-          "kind": "import",
-          "imported": [
-            "describe",
-            "expect",
-            "test"
-          ]
-        },
-        {
-          "from": "../../types/terminal.js",
-          "kind": "import",
-          "imported": [
-            "OutputDiff"
-          ]
-        }
-      ],
-      "dependencies": [
-        "src/types/terminal.ts"
-      ],
-      "functions": [],
-      "classes": [],
-      "constants": []
-    },
-    "src/__tests__/types/terminal-line.test.ts": {
-      "imports": [
-        {
-          "from": "bun:test",
-          "kind": "import",
-          "imported": [
-            "describe",
-            "expect",
-            "test"
-          ]
-        },
-        {
-          "from": "../../types/terminal.js",
-          "kind": "import",
-          "imported": [
-            "OutputLine"
-          ]
-        }
-      ],
-      "dependencies": [
-        "src/types/terminal.ts"
-      ],
-      "functions": [],
-      "classes": [],
-      "constants": []
-    },
-    "src/__tests__/types/terminal-operation.test.ts": {
-      "imports": [
-        {
-          "from": "bun:test",
-          "kind": "import",
-          "imported": [
-            "describe",
-            "expect",
-            "test"
-          ]
-        },
-        {
-          "from": "../../types/terminal.js",
-          "kind": "import",
-          "imported": [
-            "OutputOperation"
-          ]
-        }
-      ],
-      "dependencies": [
-        "src/types/terminal.ts"
-      ],
-      "functions": [],
-      "classes": [],
-      "constants": []
-    },
-    "src/__tests__/types/terminal-rgb.test.ts": {
-      "imports": [
-        {
-          "from": "bun:test",
-          "kind": "import",
-          "imported": [
-            "describe",
-            "expect",
-            "test"
-          ]
-        },
-        {
-          "from": "../../types/nodes.js",
-          "kind": "import",
-          "imported": [
-            "RGBColor"
-          ]
-        }
-      ],
-      "dependencies": [
-        "src/types/nodes.ts"
-      ],
-      "functions": [],
-      "classes": [],
-      "constants": []
-    },
-    "src/__tests__/types/terminal-segment.test.ts": {
-      "imports": [
-        {
-          "from": "bun:test",
-          "kind": "import",
-          "imported": [
-            "describe",
-            "expect",
-            "test"
-          ]
-        },
-        {
-          "from": "../../types/terminal.js",
-          "kind": "import",
-          "imported": [
-            "OutputSegment"
-          ]
-        }
-      ],
-      "dependencies": [
-        "src/types/terminal.ts"
-      ],
-      "functions": [],
-      "classes": [],
-      "constants": []
-    },
-    "src/__tests__/types/terminal-style.test.ts": {
-      "imports": [
-        {
-          "from": "bun:test",
-          "kind": "import",
-          "imported": [
-            "describe",
-            "expect",
-            "test"
-          ]
-        },
-        {
-          "from": "../../types/terminal.js",
-          "kind": "import",
-          "imported": [
-            "TerminalStyle"
-          ]
-        }
-      ],
-      "dependencies": [
-        "src/types/terminal.ts"
-      ],
-      "functions": [],
-      "classes": [],
-      "constants": []
-    },
     "src/errors/index.ts": {
       "imports": [
         {
@@ -3812,6 +1596,2222 @@
       ],
       "dependencies": [
         "src/types/nodes.ts"
+      ],
+      "functions": [],
+      "classes": [],
+      "constants": []
+    },
+    "tests/errors/index.test.ts": {
+      "imports": [
+        {
+          "from": "bun:test",
+          "kind": "import",
+          "imported": [
+            "describe",
+            "expect",
+            "test"
+          ]
+        },
+        {
+          "from": "effect",
+          "kind": "import",
+          "imported": [
+            "Effect",
+            "Either"
+          ]
+        },
+        {
+          "from": "../../src/errors/index.js",
+          "kind": "import",
+          "imported": [
+            "focusError",
+            "InkError",
+            "inputError",
+            "LayoutError",
+            "layoutError",
+            "outputError",
+            "RenderError",
+            "renderError",
+            "terminalError"
+          ]
+        }
+      ],
+      "dependencies": [
+        "src/errors/index.ts"
+      ],
+      "functions": [],
+      "classes": [],
+      "constants": [
+        {
+          "name": "errorFactories",
+          "initKind": "unknown",
+          "isExported": false
+        },
+        {
+          "name": "errorsWithNodeId",
+          "initKind": "unknown",
+          "isExported": false
+        },
+        {
+          "name": "errorsWithCause",
+          "initKind": "unknown",
+          "isExported": false
+        },
+        {
+          "name": "testEffectCatch",
+          "initKind": "function",
+          "isExported": false
+        }
+      ]
+    },
+    "tests/helpers/index.ts": {
+      "imports": [
+        {
+          "from": "./testLayers",
+          "kind": "export",
+          "imported": [
+            "createTestLayer",
+            "runTestEffect",
+            "runTestEffectWithResult"
+          ]
+        }
+      ],
+      "dependencies": [
+        "tests/helpers/testLayers.ts"
+      ],
+      "functions": [],
+      "classes": [],
+      "constants": []
+    },
+    "tests/helpers/testLayers.ts": {
+      "imports": [
+        {
+          "from": "effect",
+          "kind": "import",
+          "imported": [
+            "Effect",
+            "Layer"
+          ]
+        },
+        {
+          "from": "effect/Either",
+          "kind": "import",
+          "imported": [
+            "Either"
+          ]
+        }
+      ],
+      "dependencies": [],
+      "functions": [],
+      "classes": [],
+      "constants": [
+        {
+          "name": "runTestEffect",
+          "initKind": "function",
+          "isExported": true
+        },
+        {
+          "name": "runTestEffectWithResult",
+          "initKind": "function",
+          "isExported": true
+        },
+        {
+          "name": "createTestLayer",
+          "initKind": "function",
+          "isExported": true
+        }
+      ]
+    },
+    "tests/sanity.test.ts": {
+      "imports": [
+        {
+          "from": "bun:test",
+          "kind": "import",
+          "imported": [
+            "describe",
+            "expect",
+            "test"
+          ]
+        },
+        {
+          "from": "effect",
+          "kind": "import",
+          "imported": [
+            "Effect"
+          ]
+        },
+        {
+          "from": "../src/index",
+          "kind": "import",
+          "isNamespace": true
+        },
+        {
+          "from": "./helpers",
+          "kind": "import",
+          "imported": [
+            "runTestEffect"
+          ]
+        }
+      ],
+      "dependencies": [
+        "src/index.ts",
+        "tests/helpers/index.ts"
+      ],
+      "functions": [],
+      "classes": [],
+      "constants": []
+    },
+    "tests/schemas/input-focus.test.ts": {
+      "imports": [
+        {
+          "from": "bun:test",
+          "kind": "import",
+          "imported": [
+            "describe",
+            "expect",
+            "test"
+          ]
+        },
+        {
+          "from": "../../src/schemas/input.js",
+          "kind": "import",
+          "imported": [
+            "decodeFocusState"
+          ]
+        }
+      ],
+      "dependencies": [
+        "src/schemas/input.ts"
+      ],
+      "functions": [],
+      "classes": [],
+      "constants": [
+        {
+          "name": "createFocusState",
+          "initKind": "function",
+          "isExported": false
+        },
+        {
+          "name": "expectValid",
+          "initKind": "function",
+          "isExported": false
+        },
+        {
+          "name": "expectInvalid",
+          "initKind": "function",
+          "isExported": false
+        }
+      ]
+    },
+    "tests/schemas/input-keypress.test.ts": {
+      "imports": [
+        {
+          "from": "bun:test",
+          "kind": "import",
+          "imported": [
+            "describe",
+            "expect",
+            "test"
+          ]
+        },
+        {
+          "from": "../../src/schemas/input.js",
+          "kind": "import",
+          "imported": [
+            "decodeKeyPress"
+          ]
+        }
+      ],
+      "dependencies": [
+        "src/schemas/input.ts"
+      ],
+      "functions": [],
+      "classes": [],
+      "constants": [
+        {
+          "name": "createKey",
+          "initKind": "function",
+          "isExported": false
+        },
+        {
+          "name": "createModifiers",
+          "initKind": "function",
+          "isExported": false
+        },
+        {
+          "name": "createKeyPress",
+          "initKind": "function",
+          "isExported": false
+        },
+        {
+          "name": "expectValid",
+          "initKind": "function",
+          "isExported": false
+        },
+        {
+          "name": "expectInvalid",
+          "initKind": "function",
+          "isExported": false
+        }
+      ]
+    },
+    "tests/schemas/input-keys.test.ts": {
+      "imports": [
+        {
+          "from": "bun:test",
+          "kind": "import",
+          "imported": [
+            "describe",
+            "expect",
+            "test"
+          ]
+        },
+        {
+          "from": "../../src/schemas/input.js",
+          "kind": "import",
+          "imported": [
+            "decodeKey"
+          ]
+        }
+      ],
+      "dependencies": [
+        "src/schemas/input.ts"
+      ],
+      "functions": [],
+      "classes": [],
+      "constants": [
+        {
+          "name": "createKey",
+          "initKind": "function",
+          "isExported": false
+        },
+        {
+          "name": "expectValid",
+          "initKind": "function",
+          "isExported": false
+        },
+        {
+          "name": "expectInvalid",
+          "initKind": "function",
+          "isExported": false
+        }
+      ]
+    },
+    "tests/schemas/input-modifiers.test.ts": {
+      "imports": [
+        {
+          "from": "bun:test",
+          "kind": "import",
+          "imported": [
+            "describe",
+            "expect",
+            "test"
+          ]
+        },
+        {
+          "from": "../../src/schemas/input.js",
+          "kind": "import",
+          "imported": [
+            "decodeKeyModifiers"
+          ]
+        }
+      ],
+      "dependencies": [
+        "src/schemas/input.ts"
+      ],
+      "functions": [],
+      "classes": [],
+      "constants": [
+        {
+          "name": "createModifiers",
+          "initKind": "function",
+          "isExported": false
+        },
+        {
+          "name": "expectValid",
+          "initKind": "function",
+          "isExported": false
+        },
+        {
+          "name": "expectInvalid",
+          "initKind": "function",
+          "isExported": false
+        }
+      ]
+    },
+    "tests/schemas/input-mouse.test.ts": {
+      "imports": [
+        {
+          "from": "bun:test",
+          "kind": "import",
+          "imported": [
+            "describe",
+            "expect",
+            "test"
+          ]
+        },
+        {
+          "from": "../../src/schemas/input.js",
+          "kind": "import",
+          "imported": [
+            "decodeMouseEvent"
+          ]
+        }
+      ],
+      "dependencies": [
+        "src/schemas/input.ts"
+      ],
+      "functions": [],
+      "classes": [],
+      "constants": [
+        {
+          "name": "createMouseEvent",
+          "initKind": "function",
+          "isExported": false
+        },
+        {
+          "name": "expectValid",
+          "initKind": "function",
+          "isExported": false
+        },
+        {
+          "name": "expectInvalid",
+          "initKind": "function",
+          "isExported": false
+        }
+      ]
+    },
+    "tests/schemas/input-resize.test.ts": {
+      "imports": [
+        {
+          "from": "bun:test",
+          "kind": "import",
+          "imported": [
+            "describe",
+            "expect",
+            "test"
+          ]
+        },
+        {
+          "from": "../../src/schemas/input.js",
+          "kind": "import",
+          "imported": [
+            "decodeResizeEvent"
+          ]
+        }
+      ],
+      "dependencies": [
+        "src/schemas/input.ts"
+      ],
+      "functions": [],
+      "classes": [],
+      "constants": [
+        {
+          "name": "createResizeEvent",
+          "initKind": "function",
+          "isExported": false
+        },
+        {
+          "name": "expectValid",
+          "initKind": "function",
+          "isExported": false
+        },
+        {
+          "name": "expectInvalid",
+          "initKind": "function",
+          "isExported": false
+        }
+      ]
+    },
+    "tests/schemas/input-union.test.ts": {
+      "imports": [
+        {
+          "from": "bun:test",
+          "kind": "import",
+          "imported": [
+            "describe",
+            "expect",
+            "test"
+          ]
+        },
+        {
+          "from": "../../src/schemas/input.js",
+          "kind": "import",
+          "imported": [
+            "decodeInputEvent"
+          ]
+        }
+      ],
+      "dependencies": [
+        "src/schemas/input.ts"
+      ],
+      "functions": [],
+      "classes": [],
+      "constants": [
+        {
+          "name": "createKey",
+          "initKind": "function",
+          "isExported": false
+        },
+        {
+          "name": "createModifiers",
+          "initKind": "function",
+          "isExported": false
+        },
+        {
+          "name": "createKeyPress",
+          "initKind": "function",
+          "isExported": false
+        },
+        {
+          "name": "createMouseEvent",
+          "initKind": "function",
+          "isExported": false
+        },
+        {
+          "name": "createResizeEvent",
+          "initKind": "function",
+          "isExported": false
+        },
+        {
+          "name": "expectValid",
+          "initKind": "function",
+          "isExported": false
+        },
+        {
+          "name": "expectInvalid",
+          "initKind": "function",
+          "isExported": false
+        }
+      ]
+    },
+    "tests/schemas/layout-children.test.ts": {
+      "imports": [
+        {
+          "from": "bun:test",
+          "kind": "import",
+          "imported": [
+            "describe",
+            "expect",
+            "test"
+          ]
+        },
+        {
+          "from": "../../src/schemas/layout.js",
+          "kind": "import",
+          "imported": [
+            "decodeChildLayoutEntry"
+          ]
+        }
+      ],
+      "dependencies": [
+        "src/schemas/layout.ts"
+      ],
+      "functions": [],
+      "classes": [],
+      "constants": []
+    },
+    "tests/schemas/layout-request.test.ts": {
+      "imports": [
+        {
+          "from": "bun:test",
+          "kind": "import",
+          "imported": [
+            "describe",
+            "expect",
+            "test"
+          ]
+        },
+        {
+          "from": "../../src/schemas/layout.js",
+          "kind": "import",
+          "imported": [
+            "decodeLayoutRequest"
+          ]
+        }
+      ],
+      "dependencies": [
+        "src/schemas/layout.ts"
+      ],
+      "functions": [],
+      "classes": [],
+      "constants": []
+    },
+    "tests/schemas/layout-result.test.ts": {
+      "imports": [
+        {
+          "from": "bun:test",
+          "kind": "import",
+          "imported": [
+            "describe",
+            "expect",
+            "test"
+          ]
+        },
+        {
+          "from": "../../src/schemas/layout.js",
+          "kind": "import",
+          "imported": [
+            "decodeLayoutResult"
+          ]
+        }
+      ],
+      "dependencies": [
+        "src/schemas/layout.ts"
+      ],
+      "functions": [],
+      "classes": [],
+      "constants": []
+    },
+    "tests/schemas/nodes-layout.test.ts": {
+      "imports": [
+        {
+          "from": "bun:test",
+          "kind": "import",
+          "imported": [
+            "describe",
+            "expect",
+            "test"
+          ]
+        },
+        {
+          "from": "../../src/schemas/nodes.js",
+          "kind": "import",
+          "imported": [
+            "decodeLayoutInfo"
+          ]
+        }
+      ],
+      "dependencies": [
+        "src/schemas/nodes.ts"
+      ],
+      "functions": [],
+      "classes": [],
+      "constants": []
+    },
+    "tests/schemas/nodes-metadata.test.ts": {
+      "imports": [
+        {
+          "from": "bun:test",
+          "kind": "import",
+          "imported": [
+            "describe",
+            "expect",
+            "test"
+          ]
+        },
+        {
+          "from": "../../src/schemas/nodes.js",
+          "kind": "import",
+          "imported": [
+            "decodeNodeMetadata"
+          ]
+        }
+      ],
+      "dependencies": [
+        "src/schemas/nodes.ts"
+      ],
+      "functions": [],
+      "classes": [],
+      "constants": []
+    },
+    "tests/schemas/nodes-specific.test.ts": {
+      "imports": [
+        {
+          "from": "bun:test",
+          "kind": "import",
+          "imported": [
+            "describe",
+            "expect",
+            "test"
+          ]
+        },
+        {
+          "from": "../../src/schemas/nodes.js",
+          "kind": "import",
+          "imported": [
+            "decodeBoxNode",
+            "decodeNewlineNode",
+            "decodeRootNode",
+            "decodeSpacerNode",
+            "decodeStaticNode",
+            "decodeTextNode",
+            "decodeTransformNode"
+          ]
+        }
+      ],
+      "dependencies": [
+        "src/schemas/nodes.ts"
+      ],
+      "functions": [],
+      "classes": [],
+      "constants": [
+        {
+          "name": "createMinimalMetadata",
+          "initKind": "function",
+          "isExported": false
+        }
+      ]
+    },
+    "tests/schemas/nodes-text-style.test.ts": {
+      "imports": [
+        {
+          "from": "bun:test",
+          "kind": "import",
+          "imported": [
+            "describe",
+            "expect",
+            "test"
+          ]
+        },
+        {
+          "from": "../../src/schemas/nodes.js",
+          "kind": "import",
+          "imported": [
+            "decodeStyledText",
+            "decodeTextStyle"
+          ]
+        }
+      ],
+      "dependencies": [
+        "src/schemas/nodes.ts"
+      ],
+      "functions": [],
+      "classes": [],
+      "constants": []
+    },
+    "tests/schemas/nodes-types.test.ts": {
+      "imports": [
+        {
+          "from": "bun:test",
+          "kind": "import",
+          "imported": [
+            "describe",
+            "expect",
+            "test"
+          ]
+        },
+        {
+          "from": "../../src/schemas/nodes.js",
+          "kind": "import",
+          "imported": [
+            "decodeNodeType"
+          ]
+        }
+      ],
+      "dependencies": [
+        "src/schemas/nodes.ts"
+      ],
+      "functions": [],
+      "classes": [],
+      "constants": []
+    },
+    "tests/schemas/nodes-union.test.ts": {
+      "imports": [
+        {
+          "from": "bun:test",
+          "kind": "import",
+          "imported": [
+            "describe",
+            "expect",
+            "test"
+          ]
+        },
+        {
+          "from": "../../src/schemas/nodes.js",
+          "kind": "import",
+          "imported": [
+            "decodeRenderNode"
+          ]
+        }
+      ],
+      "dependencies": [
+        "src/schemas/nodes.ts"
+      ],
+      "functions": [],
+      "classes": [],
+      "constants": [
+        {
+          "name": "createMinimalMetadata",
+          "initKind": "function",
+          "isExported": false
+        }
+      ]
+    },
+    "tests/schemas/nodes-yoga.test.ts": {
+      "imports": [
+        {
+          "from": "bun:test",
+          "kind": "import",
+          "imported": [
+            "describe",
+            "expect",
+            "test"
+          ]
+        },
+        {
+          "from": "../../src/schemas/nodes.js",
+          "kind": "import",
+          "imported": [
+            "decodeYogaNode"
+          ]
+        }
+      ],
+      "dependencies": [
+        "src/schemas/nodes.ts"
+      ],
+      "functions": [],
+      "classes": [],
+      "constants": []
+    },
+    "tests/schemas/props-box.test.ts": {
+      "imports": [
+        {
+          "from": "bun:test",
+          "kind": "import",
+          "imported": [
+            "describe",
+            "expect",
+            "test"
+          ]
+        },
+        {
+          "from": "../../src/schemas/props.js",
+          "kind": "import",
+          "imported": [
+            "decodeBoxProps"
+          ]
+        }
+      ],
+      "dependencies": [
+        "src/schemas/props.ts"
+      ],
+      "functions": [],
+      "classes": [],
+      "constants": []
+    },
+    "tests/schemas/props-colors.test.ts": {
+      "imports": [
+        {
+          "from": "bun:test",
+          "kind": "import",
+          "imported": [
+            "describe",
+            "expect",
+            "test"
+          ]
+        },
+        {
+          "from": "../../src/schemas/props.js",
+          "kind": "import",
+          "imported": [
+            "decodeColor",
+            "decodeHSLColor",
+            "decodeRGBColor"
+          ]
+        }
+      ],
+      "dependencies": [
+        "src/schemas/props.ts"
+      ],
+      "functions": [],
+      "classes": [],
+      "constants": []
+    },
+    "tests/schemas/props-flexbox.test.ts": {
+      "imports": [
+        {
+          "from": "bun:test",
+          "kind": "import",
+          "imported": [
+            "describe",
+            "expect",
+            "test"
+          ]
+        },
+        {
+          "from": "../../src/schemas/props.js",
+          "kind": "import",
+          "imported": [
+            "decodeAlignItems",
+            "decodeAlignSelf",
+            "decodeBorderStyle",
+            "decodeFlexDirection",
+            "decodeJustifyContent"
+          ]
+        }
+      ],
+      "dependencies": [
+        "src/schemas/props.ts"
+      ],
+      "functions": [],
+      "classes": [],
+      "constants": []
+    },
+    "tests/schemas/props-static.test.ts": {
+      "imports": [
+        {
+          "from": "bun:test",
+          "kind": "import",
+          "imported": [
+            "describe",
+            "expect",
+            "test"
+          ]
+        },
+        {
+          "from": "../../src/schemas/props.js",
+          "kind": "import",
+          "imported": [
+            "decodeStaticProps"
+          ]
+        }
+      ],
+      "dependencies": [
+        "src/schemas/props.ts"
+      ],
+      "functions": [],
+      "classes": [],
+      "constants": []
+    },
+    "tests/schemas/props-text.test.ts": {
+      "imports": [
+        {
+          "from": "bun:test",
+          "kind": "import",
+          "imported": [
+            "describe",
+            "expect",
+            "test"
+          ]
+        },
+        {
+          "from": "../../src/schemas/props.js",
+          "kind": "import",
+          "imported": [
+            "decodeTextProps",
+            "decodeWrapMode"
+          ]
+        }
+      ],
+      "dependencies": [
+        "src/schemas/props.ts"
+      ],
+      "functions": [],
+      "classes": [],
+      "constants": []
+    },
+    "tests/schemas/props-transform.test.ts": {
+      "imports": [
+        {
+          "from": "bun:test",
+          "kind": "import",
+          "imported": [
+            "describe",
+            "expect",
+            "test"
+          ]
+        },
+        {
+          "from": "../../src/schemas/props.js",
+          "kind": "import",
+          "imported": [
+            "decodeTransformProps"
+          ]
+        }
+      ],
+      "dependencies": [
+        "src/schemas/props.ts"
+      ],
+      "functions": [],
+      "classes": [],
+      "constants": []
+    },
+    "tests/schemas/terminal-antml.test.ts": {
+      "imports": [
+        {
+          "from": "bun:test",
+          "kind": "import",
+          "imported": [
+            "describe",
+            "expect",
+            "test"
+          ]
+        },
+        {
+          "from": "../../src/schemas/terminal.js",
+          "kind": "import",
+          "imported": [
+            "decodeANTMLCommand",
+            "decodeANTMLOutput"
+          ]
+        }
+      ],
+      "dependencies": [
+        "src/schemas/terminal.ts"
+      ],
+      "functions": [],
+      "classes": [],
+      "constants": []
+    },
+    "tests/schemas/terminal-buffer.test.ts": {
+      "imports": [
+        {
+          "from": "bun:test",
+          "kind": "import",
+          "imported": [
+            "describe",
+            "expect",
+            "test"
+          ]
+        },
+        {
+          "from": "../../src/schemas/terminal.js",
+          "kind": "import",
+          "imported": [
+            "decodeOutputBuffer"
+          ]
+        }
+      ],
+      "dependencies": [
+        "src/schemas/terminal.ts"
+      ],
+      "functions": [],
+      "classes": [],
+      "constants": []
+    },
+    "tests/schemas/terminal-line.test.ts": {
+      "imports": [
+        {
+          "from": "bun:test",
+          "kind": "import",
+          "imported": [
+            "describe",
+            "expect",
+            "test"
+          ]
+        },
+        {
+          "from": "../../src/schemas/terminal.js",
+          "kind": "import",
+          "imported": [
+            "decodeOutputLine"
+          ]
+        }
+      ],
+      "dependencies": [
+        "src/schemas/terminal.ts"
+      ],
+      "functions": [],
+      "classes": [],
+      "constants": []
+    },
+    "tests/schemas/terminal-operations.test.ts": {
+      "imports": [
+        {
+          "from": "bun:test",
+          "kind": "import",
+          "imported": [
+            "describe",
+            "expect",
+            "test"
+          ]
+        },
+        {
+          "from": "../../src/schemas/terminal.js",
+          "kind": "import",
+          "imported": [
+            "decodeOutputDiff",
+            "decodeOutputOperation"
+          ]
+        }
+      ],
+      "dependencies": [
+        "src/schemas/terminal.ts"
+      ],
+      "functions": [],
+      "classes": [],
+      "constants": []
+    },
+    "tests/schemas/terminal-rgb-color.test.ts": {
+      "imports": [
+        {
+          "from": "bun:test",
+          "kind": "import",
+          "imported": [
+            "describe",
+            "expect",
+            "test"
+          ]
+        },
+        {
+          "from": "../../src/schemas/terminal.js",
+          "kind": "import",
+          "imported": [
+            "decodeRGBColor"
+          ]
+        }
+      ],
+      "dependencies": [
+        "src/schemas/terminal.ts"
+      ],
+      "functions": [],
+      "classes": [],
+      "constants": []
+    },
+    "tests/schemas/terminal-segment.test.ts": {
+      "imports": [
+        {
+          "from": "bun:test",
+          "kind": "import",
+          "imported": [
+            "describe",
+            "expect",
+            "test"
+          ]
+        },
+        {
+          "from": "../../src/schemas/terminal.js",
+          "kind": "import",
+          "imported": [
+            "decodeOutputSegment"
+          ]
+        }
+      ],
+      "dependencies": [
+        "src/schemas/terminal.ts"
+      ],
+      "functions": [],
+      "classes": [],
+      "constants": []
+    },
+    "tests/schemas/terminal-style.test.ts": {
+      "imports": [
+        {
+          "from": "bun:test",
+          "kind": "import",
+          "imported": [
+            "describe",
+            "expect",
+            "test"
+          ]
+        },
+        {
+          "from": "../../src/schemas/terminal.js",
+          "kind": "import",
+          "imported": [
+            "decodeTerminalStyle"
+          ]
+        }
+      ],
+      "dependencies": [
+        "src/schemas/terminal.ts"
+      ],
+      "functions": [],
+      "classes": [],
+      "constants": []
+    },
+    "tests/types/input-composition.test.ts": {
+      "imports": [
+        {
+          "from": "bun:test",
+          "kind": "import",
+          "imported": [
+            "describe",
+            "expect",
+            "test"
+          ]
+        },
+        {
+          "from": "../../src/types/input.js",
+          "kind": "import",
+          "imported": [
+            "Key",
+            "KeyModifiers",
+            "KeyPress"
+          ]
+        }
+      ],
+      "dependencies": [
+        "src/types/input.ts"
+      ],
+      "functions": [],
+      "classes": [],
+      "constants": [
+        {
+          "name": "createKey",
+          "initKind": "function",
+          "isExported": false
+        },
+        {
+          "name": "createModifiers",
+          "initKind": "function",
+          "isExported": false
+        },
+        {
+          "name": "createKeyPress",
+          "initKind": "function",
+          "isExported": false
+        }
+      ]
+    },
+    "tests/types/input-focus-manager.test.ts": {
+      "imports": [
+        {
+          "from": "bun:test",
+          "kind": "import",
+          "imported": [
+            "describe",
+            "expect",
+            "test"
+          ]
+        },
+        {
+          "from": "../../src/types/input.js",
+          "kind": "import",
+          "imported": [
+            "FocusManager"
+          ]
+        }
+      ],
+      "dependencies": [
+        "src/types/input.ts"
+      ],
+      "functions": [],
+      "classes": [],
+      "constants": [
+        {
+          "name": "createFocusManager",
+          "initKind": "function",
+          "isExported": false
+        }
+      ]
+    },
+    "tests/types/input-focus-state.test.ts": {
+      "imports": [
+        {
+          "from": "bun:test",
+          "kind": "import",
+          "imported": [
+            "describe",
+            "expect",
+            "test"
+          ]
+        },
+        {
+          "from": "../../src/types/input.js",
+          "kind": "import",
+          "imported": [
+            "FocusState"
+          ]
+        }
+      ],
+      "dependencies": [
+        "src/types/input.ts"
+      ],
+      "functions": [],
+      "classes": [],
+      "constants": [
+        {
+          "name": "createFocusState",
+          "initKind": "function",
+          "isExported": false
+        }
+      ]
+    },
+    "tests/types/input-key.test.ts": {
+      "imports": [
+        {
+          "from": "bun:test",
+          "kind": "import",
+          "imported": [
+            "describe",
+            "expect",
+            "test"
+          ]
+        },
+        {
+          "from": "../../src/types/input.js",
+          "kind": "import",
+          "imported": [
+            "Key"
+          ]
+        }
+      ],
+      "dependencies": [
+        "src/types/input.ts"
+      ],
+      "functions": [],
+      "classes": [],
+      "constants": [
+        {
+          "name": "createKey",
+          "initKind": "function",
+          "isExported": false
+        }
+      ]
+    },
+    "tests/types/input-keypress.test.ts": {
+      "imports": [
+        {
+          "from": "bun:test",
+          "kind": "import",
+          "imported": [
+            "describe",
+            "expect",
+            "test"
+          ]
+        },
+        {
+          "from": "../../src/types/input.js",
+          "kind": "import",
+          "imported": [
+            "Key",
+            "KeyModifiers",
+            "KeyPress"
+          ]
+        }
+      ],
+      "dependencies": [
+        "src/types/input.ts"
+      ],
+      "functions": [],
+      "classes": [],
+      "constants": [
+        {
+          "name": "createKey",
+          "initKind": "function",
+          "isExported": false
+        },
+        {
+          "name": "createModifiers",
+          "initKind": "function",
+          "isExported": false
+        },
+        {
+          "name": "createKeyPress",
+          "initKind": "function",
+          "isExported": false
+        }
+      ]
+    },
+    "tests/types/input-modifiers.test.ts": {
+      "imports": [
+        {
+          "from": "bun:test",
+          "kind": "import",
+          "imported": [
+            "describe",
+            "expect",
+            "test"
+          ]
+        },
+        {
+          "from": "../../src/types/input.js",
+          "kind": "import",
+          "imported": [
+            "KeyModifiers"
+          ]
+        }
+      ],
+      "dependencies": [
+        "src/types/input.ts"
+      ],
+      "functions": [],
+      "classes": [],
+      "constants": [
+        {
+          "name": "createModifiers",
+          "initKind": "function",
+          "isExported": false
+        }
+      ]
+    },
+    "tests/types/input-mouse.test.ts": {
+      "imports": [
+        {
+          "from": "bun:test",
+          "kind": "import",
+          "imported": [
+            "describe",
+            "expect",
+            "test"
+          ]
+        },
+        {
+          "from": "../../src/types/input.js",
+          "kind": "import",
+          "imported": [
+            "MouseEvent"
+          ]
+        }
+      ],
+      "dependencies": [
+        "src/types/input.ts"
+      ],
+      "functions": [],
+      "classes": [],
+      "constants": [
+        {
+          "name": "createMouseEvent",
+          "initKind": "function",
+          "isExported": false
+        }
+      ]
+    },
+    "tests/types/input-resize.test.ts": {
+      "imports": [
+        {
+          "from": "bun:test",
+          "kind": "import",
+          "imported": [
+            "describe",
+            "expect",
+            "test"
+          ]
+        },
+        {
+          "from": "../../src/types/input.js",
+          "kind": "import",
+          "imported": [
+            "ResizeEvent"
+          ]
+        }
+      ],
+      "dependencies": [
+        "src/types/input.ts"
+      ],
+      "functions": [],
+      "classes": [],
+      "constants": [
+        {
+          "name": "createResizeEvent",
+          "initKind": "function",
+          "isExported": false
+        }
+      ]
+    },
+    "tests/types/input-union.test.ts": {
+      "imports": [
+        {
+          "from": "bun:test",
+          "kind": "import",
+          "imported": [
+            "describe",
+            "expect",
+            "test"
+          ]
+        },
+        {
+          "from": "../../src/types/input.js",
+          "kind": "import",
+          "imported": [
+            "InputEvent",
+            "Key",
+            "KeyModifiers",
+            "KeyPress",
+            "MouseEvent",
+            "ResizeEvent"
+          ]
+        }
+      ],
+      "dependencies": [
+        "src/types/input.ts"
+      ],
+      "functions": [],
+      "classes": [],
+      "constants": [
+        {
+          "name": "createKey",
+          "initKind": "function",
+          "isExported": false
+        },
+        {
+          "name": "createModifiers",
+          "initKind": "function",
+          "isExported": false
+        },
+        {
+          "name": "createKeyPress",
+          "initKind": "function",
+          "isExported": false
+        },
+        {
+          "name": "createMouseEvent",
+          "initKind": "function",
+          "isExported": false
+        },
+        {
+          "name": "createResizeEvent",
+          "initKind": "function",
+          "isExported": false
+        }
+      ]
+    },
+    "tests/types/layout-composition.test.ts": {
+      "imports": [
+        {
+          "from": "bun:test",
+          "kind": "import",
+          "imported": [
+            "describe",
+            "expect",
+            "test"
+          ]
+        },
+        {
+          "from": "../../src/types/layout.js",
+          "kind": "import",
+          "imported": [
+            "LayoutInfo",
+            "LayoutRequest",
+            "LayoutResult",
+            "YogaNode"
+          ]
+        },
+        {
+          "from": "../../src/types/nodes.js",
+          "kind": "import",
+          "imported": [
+            "BoxProps"
+          ]
+        }
+      ],
+      "dependencies": [
+        "src/types/layout.ts",
+        "src/types/nodes.ts"
+      ],
+      "functions": [],
+      "classes": [],
+      "constants": [
+        {
+          "name": "createLayoutInfo",
+          "initKind": "function",
+          "isExported": false
+        },
+        {
+          "name": "createYogaNode",
+          "initKind": "function",
+          "isExported": false
+        },
+        {
+          "name": "createLayoutRequest",
+          "initKind": "function",
+          "isExported": false
+        },
+        {
+          "name": "createLayoutResult",
+          "initKind": "function",
+          "isExported": false
+        }
+      ]
+    },
+    "tests/types/layout-info.test.ts": {
+      "imports": [
+        {
+          "from": "bun:test",
+          "kind": "import",
+          "imported": [
+            "describe",
+            "expect",
+            "test"
+          ]
+        },
+        {
+          "from": "../../src/types/layout.js",
+          "kind": "import",
+          "imported": [
+            "LayoutInfo"
+          ]
+        }
+      ],
+      "dependencies": [
+        "src/types/layout.ts"
+      ],
+      "functions": [],
+      "classes": [],
+      "constants": [
+        {
+          "name": "createLayoutInfo",
+          "initKind": "function",
+          "isExported": false
+        }
+      ]
+    },
+    "tests/types/layout-request.test.ts": {
+      "imports": [
+        {
+          "from": "bun:test",
+          "kind": "import",
+          "imported": [
+            "describe",
+            "expect",
+            "test"
+          ]
+        },
+        {
+          "from": "../../src/types/layout.js",
+          "kind": "import",
+          "imported": [
+            "LayoutRequest"
+          ]
+        }
+      ],
+      "dependencies": [
+        "src/types/layout.ts"
+      ],
+      "functions": [],
+      "classes": [],
+      "constants": [
+        {
+          "name": "createLayoutRequest",
+          "initKind": "function",
+          "isExported": false
+        }
+      ]
+    },
+    "tests/types/layout-result.test.ts": {
+      "imports": [
+        {
+          "from": "bun:test",
+          "kind": "import",
+          "imported": [
+            "describe",
+            "expect",
+            "test"
+          ]
+        },
+        {
+          "from": "../../src/types/layout.js",
+          "kind": "import",
+          "imported": [
+            "LayoutInfo",
+            "LayoutResult"
+          ]
+        }
+      ],
+      "dependencies": [
+        "src/types/layout.ts"
+      ],
+      "functions": [],
+      "classes": [],
+      "constants": [
+        {
+          "name": "createLayoutInfo",
+          "initKind": "function",
+          "isExported": false
+        },
+        {
+          "name": "createLayoutResult",
+          "initKind": "function",
+          "isExported": false
+        }
+      ]
+    },
+    "tests/types/layout-yoga.test.ts": {
+      "imports": [
+        {
+          "from": "bun:test",
+          "kind": "import",
+          "imported": [
+            "describe",
+            "expect",
+            "test"
+          ]
+        },
+        {
+          "from": "../../src/types/layout.js",
+          "kind": "import",
+          "imported": [
+            "LayoutInfo",
+            "YogaNode"
+          ]
+        },
+        {
+          "from": "../../src/types/nodes.js",
+          "kind": "import",
+          "imported": [
+            "BoxProps"
+          ]
+        }
+      ],
+      "dependencies": [
+        "src/types/layout.ts",
+        "src/types/nodes.ts"
+      ],
+      "functions": [],
+      "classes": [],
+      "constants": [
+        {
+          "name": "createLayoutInfo",
+          "initKind": "function",
+          "isExported": false
+        },
+        {
+          "name": "createYogaNode",
+          "initKind": "function",
+          "isExported": false
+        }
+      ]
+    },
+    "tests/types/nodes-colors.test.ts": {
+      "imports": [
+        {
+          "from": "bun:test",
+          "kind": "import",
+          "imported": [
+            "describe",
+            "expect",
+            "test"
+          ]
+        },
+        {
+          "from": "../../src/types/nodes",
+          "kind": "import",
+          "imported": [
+            "TextProps"
+          ]
+        }
+      ],
+      "dependencies": [
+        "src/types/nodes.ts"
+      ],
+      "functions": [],
+      "classes": [],
+      "constants": []
+    },
+    "tests/types/nodes-create.test.ts": {
+      "imports": [
+        {
+          "from": "bun:test",
+          "kind": "import",
+          "imported": [
+            "describe",
+            "expect",
+            "test"
+          ]
+        },
+        {
+          "from": "../../src/types/nodes",
+          "kind": "import",
+          "imported": [
+            "createNode",
+            "NodeType"
+          ]
+        }
+      ],
+      "dependencies": [
+        "src/types/nodes.ts"
+      ],
+      "functions": [],
+      "classes": [],
+      "constants": []
+    },
+    "tests/types/nodes-guards.test.ts": {
+      "imports": [
+        {
+          "from": "bun:test",
+          "kind": "import",
+          "imported": [
+            "describe",
+            "expect",
+            "test"
+          ]
+        },
+        {
+          "from": "../../src/types/nodes",
+          "kind": "import",
+          "imported": [
+            "createNode",
+            "isBoxNode",
+            "isNewlineNode",
+            "isRootNode",
+            "isSpacerNode",
+            "isStaticNode",
+            "isTextNode",
+            "isTransformNode",
+            "NodeType"
+          ]
+        }
+      ],
+      "dependencies": [
+        "src/types/nodes.ts"
+      ],
+      "functions": [],
+      "classes": [],
+      "constants": [
+        {
+          "name": "typeGuards",
+          "initKind": "unknown",
+          "isExported": false
+        }
+      ]
+    },
+    "tests/types/nodes-integration.test.ts": {
+      "imports": [
+        {
+          "from": "bun:test",
+          "kind": "import",
+          "imported": [
+            "describe",
+            "expect",
+            "test"
+          ]
+        },
+        {
+          "from": "../../src/types/nodes",
+          "kind": "import",
+          "imported": [
+            "createNode",
+            "createRenderTree",
+            "NodeType",
+            "RenderNode"
+          ]
+        }
+      ],
+      "dependencies": [
+        "src/types/nodes.ts"
+      ],
+      "functions": [],
+      "classes": [],
+      "constants": []
+    },
+    "tests/types/nodes-metadata.test.ts": {
+      "imports": [
+        {
+          "from": "bun:test",
+          "kind": "import",
+          "imported": [
+            "describe",
+            "expect",
+            "test"
+          ]
+        },
+        {
+          "from": "../../src/types/nodes",
+          "kind": "import",
+          "imported": [
+            "createNode",
+            "NodeType"
+          ]
+        }
+      ],
+      "dependencies": [
+        "src/types/nodes.ts"
+      ],
+      "functions": [],
+      "classes": [],
+      "constants": []
+    },
+    "tests/types/nodes-narrowing.test.ts": {
+      "imports": [
+        {
+          "from": "bun:test",
+          "kind": "import",
+          "imported": [
+            "describe",
+            "expect",
+            "test"
+          ]
+        },
+        {
+          "from": "../../src/types/nodes",
+          "kind": "import",
+          "imported": [
+            "BoxProps",
+            "createNode",
+            "isBoxNode",
+            "isNewlineNode",
+            "isStaticNode",
+            "isTextNode",
+            "isTransformNode",
+            "NodeType",
+            "RenderNode"
+          ]
+        }
+      ],
+      "dependencies": [
+        "src/types/nodes.ts"
+      ],
+      "functions": [],
+      "classes": [],
+      "constants": []
+    },
+    "tests/types/nodes-props.test.ts": {
+      "imports": [
+        {
+          "from": "bun:test",
+          "kind": "import",
+          "imported": [
+            "describe",
+            "expect",
+            "test"
+          ]
+        },
+        {
+          "from": "../../src/types/nodes",
+          "kind": "import",
+          "imported": [
+            "BoxProps",
+            "TextProps"
+          ]
+        }
+      ],
+      "dependencies": [
+        "src/types/nodes.ts"
+      ],
+      "functions": [],
+      "classes": [],
+      "constants": []
+    },
+    "tests/types/nodes-render-tree.test.ts": {
+      "imports": [
+        {
+          "from": "bun:test",
+          "kind": "import",
+          "imported": [
+            "describe",
+            "expect",
+            "test"
+          ]
+        },
+        {
+          "from": "../../src/types/nodes",
+          "kind": "import",
+          "imported": [
+            "createRenderTree",
+            "NodeType"
+          ]
+        }
+      ],
+      "dependencies": [
+        "src/types/nodes.ts"
+      ],
+      "functions": [],
+      "classes": [],
+      "constants": []
+    },
+    "tests/types/nodes-structure.test.ts": {
+      "imports": [
+        {
+          "from": "bun:test",
+          "kind": "import",
+          "imported": [
+            "describe",
+            "expect",
+            "test"
+          ]
+        },
+        {
+          "from": "../../src/types/nodes",
+          "kind": "import",
+          "imported": [
+            "createNode",
+            "NodeType"
+          ]
+        }
+      ],
+      "dependencies": [
+        "src/types/nodes.ts"
+      ],
+      "functions": [],
+      "classes": [],
+      "constants": [
+        {
+          "name": "baseNodeProperties",
+          "initKind": "array",
+          "isExported": false
+        }
+      ]
+    },
+    "tests/types/nodes-tree-structure.test.ts": {
+      "imports": [
+        {
+          "from": "bun:test",
+          "kind": "import",
+          "imported": [
+            "describe",
+            "expect",
+            "test"
+          ]
+        },
+        {
+          "from": "../../src/types/nodes",
+          "kind": "import",
+          "imported": [
+            "createNode",
+            "createRenderTree",
+            "NodeType"
+          ]
+        }
+      ],
+      "dependencies": [
+        "src/types/nodes.ts"
+      ],
+      "functions": [],
+      "classes": [],
+      "constants": []
+    },
+    "tests/types/terminal-antml-command.test.ts": {
+      "imports": [
+        {
+          "from": "bun:test",
+          "kind": "import",
+          "imported": [
+            "describe",
+            "expect",
+            "test"
+          ]
+        },
+        {
+          "from": "../../src/types/terminal.js",
+          "kind": "import",
+          "imported": [
+            "ANTMLCommand"
+          ]
+        }
+      ],
+      "dependencies": [
+        "src/types/terminal.ts"
+      ],
+      "functions": [],
+      "classes": [],
+      "constants": []
+    },
+    "tests/types/terminal-antml-output.test.ts": {
+      "imports": [
+        {
+          "from": "bun:test",
+          "kind": "import",
+          "imported": [
+            "describe",
+            "expect",
+            "test"
+          ]
+        },
+        {
+          "from": "../../src/types/terminal.js",
+          "kind": "import",
+          "imported": [
+            "ANTMLOutput"
+          ]
+        }
+      ],
+      "dependencies": [
+        "src/types/terminal.ts"
+      ],
+      "functions": [],
+      "classes": [],
+      "constants": []
+    },
+    "tests/types/terminal-buffer.test.ts": {
+      "imports": [
+        {
+          "from": "bun:test",
+          "kind": "import",
+          "imported": [
+            "describe",
+            "expect",
+            "test"
+          ]
+        },
+        {
+          "from": "../../src/types/terminal.js",
+          "kind": "import",
+          "imported": [
+            "OutputBuffer",
+            "OutputLine"
+          ]
+        }
+      ],
+      "dependencies": [
+        "src/types/terminal.ts"
+      ],
+      "functions": [],
+      "classes": [],
+      "constants": []
+    },
+    "tests/types/terminal-composition.test.ts": {
+      "imports": [
+        {
+          "from": "bun:test",
+          "kind": "import",
+          "imported": [
+            "describe",
+            "expect",
+            "test"
+          ]
+        },
+        {
+          "from": "../../src/types/terminal.js",
+          "kind": "import",
+          "imported": [
+            "ANTMLOutput",
+            "OutputBuffer",
+            "OutputDiff",
+            "OutputLine",
+            "OutputSegment"
+          ]
+        }
+      ],
+      "dependencies": [
+        "src/types/terminal.ts"
+      ],
+      "functions": [],
+      "classes": [],
+      "constants": []
+    },
+    "tests/types/terminal-diff.test.ts": {
+      "imports": [
+        {
+          "from": "bun:test",
+          "kind": "import",
+          "imported": [
+            "describe",
+            "expect",
+            "test"
+          ]
+        },
+        {
+          "from": "../../src/types/terminal.js",
+          "kind": "import",
+          "imported": [
+            "OutputDiff"
+          ]
+        }
+      ],
+      "dependencies": [
+        "src/types/terminal.ts"
+      ],
+      "functions": [],
+      "classes": [],
+      "constants": []
+    },
+    "tests/types/terminal-line.test.ts": {
+      "imports": [
+        {
+          "from": "bun:test",
+          "kind": "import",
+          "imported": [
+            "describe",
+            "expect",
+            "test"
+          ]
+        },
+        {
+          "from": "../../src/types/terminal.js",
+          "kind": "import",
+          "imported": [
+            "OutputLine"
+          ]
+        }
+      ],
+      "dependencies": [
+        "src/types/terminal.ts"
+      ],
+      "functions": [],
+      "classes": [],
+      "constants": []
+    },
+    "tests/types/terminal-operation.test.ts": {
+      "imports": [
+        {
+          "from": "bun:test",
+          "kind": "import",
+          "imported": [
+            "describe",
+            "expect",
+            "test"
+          ]
+        },
+        {
+          "from": "../../src/types/terminal.js",
+          "kind": "import",
+          "imported": [
+            "OutputOperation"
+          ]
+        }
+      ],
+      "dependencies": [
+        "src/types/terminal.ts"
+      ],
+      "functions": [],
+      "classes": [],
+      "constants": []
+    },
+    "tests/types/terminal-rgb.test.ts": {
+      "imports": [
+        {
+          "from": "bun:test",
+          "kind": "import",
+          "imported": [
+            "describe",
+            "expect",
+            "test"
+          ]
+        },
+        {
+          "from": "../../src/types/nodes.js",
+          "kind": "import",
+          "imported": [
+            "RGBColor"
+          ]
+        }
+      ],
+      "dependencies": [
+        "src/types/nodes.ts"
+      ],
+      "functions": [],
+      "classes": [],
+      "constants": []
+    },
+    "tests/types/terminal-segment.test.ts": {
+      "imports": [
+        {
+          "from": "bun:test",
+          "kind": "import",
+          "imported": [
+            "describe",
+            "expect",
+            "test"
+          ]
+        },
+        {
+          "from": "../../src/types/terminal.js",
+          "kind": "import",
+          "imported": [
+            "OutputSegment"
+          ]
+        }
+      ],
+      "dependencies": [
+        "src/types/terminal.ts"
+      ],
+      "functions": [],
+      "classes": [],
+      "constants": []
+    },
+    "tests/types/terminal-style.test.ts": {
+      "imports": [
+        {
+          "from": "bun:test",
+          "kind": "import",
+          "imported": [
+            "describe",
+            "expect",
+            "test"
+          ]
+        },
+        {
+          "from": "../../src/types/terminal.js",
+          "kind": "import",
+          "imported": [
+            "TerminalStyle"
+          ]
+        }
+      ],
+      "dependencies": [
+        "src/types/terminal.ts"
       ],
       "functions": [],
       "classes": [],
