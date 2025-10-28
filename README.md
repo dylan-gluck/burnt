@@ -1,4 +1,4 @@
-# <Burnt />
+# Burnt
 
 Build beautiful command-line interfaces with React, powered by Bun and Effect.
 
