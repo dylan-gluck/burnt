@@ -151,7 +151,7 @@ Create a native Bun implementation that:
 - Breaking changes to Ink's public API
 - Non-terminal rendering targets
 - Built-in state management (use external libraries)
-- CLI framework features (argument parsing, commands) - use external libraries
+- CLI framework features (argument parsing, commands) - use bun native apis
 
 ## Success Criteria
 
