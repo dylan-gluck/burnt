@@ -25,7 +25,6 @@ Initialize Bun project with complete TypeScript configuration and project struct
 **Dev Dependencies:**
 - `@types/react@19.0.11` - React 19 type definitions
 - `@types/react-reconciler@0.28.8` - React reconciler types
-- `vitest@2.1.8` - Testing framework (Bun-compatible)
 - `@biomejs/biome@2.3.1` - Linting and formatting (already installed)
 
 #### 2. TypeScript Configuration ✓
@@ -165,7 +164,7 @@ $ bun run lint
 **Development Tools:**
 - TypeScript 5.x (strict mode)
 - Biome 2.3.1 (linting & formatting)
-- Vitest 2.1.8 (testing)
+- Bun test (native test runner)
 
 ---
 

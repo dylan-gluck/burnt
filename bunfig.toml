@@ -22,7 +22,7 @@ hot = false
 loadEnv = true
 
 [test]
-# Test runner configuration (use Vitest, not Bun's test runner)
+# Test runner configuration (using Bun's native test runner)
 
 # Timeout for tests (5 seconds)
 timeout = 5000

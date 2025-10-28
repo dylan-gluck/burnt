@@ -30,7 +30,6 @@ report.[0-9]_.[0-9]_.[0-9]_.[0-9]_.json
 .cache
 *.tsbuildinfo
 .turbo
-.vitest
 
 # Test outputs
 test-results
