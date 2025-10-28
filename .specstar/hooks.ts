@@ -298,7 +298,7 @@ function handlePostToolUse(input: HookInput): void {
 		if (subagentType) {
 			// Find the OLDEST incomplete agent of this type (FIFO approach)
 			const historyEntry = state.agents_history.find(
-				(a) => a.name === subagentType && !a.completed_at,
+				(a) => a.name === subagentType && !a.completed_at
 			);
 
 			if (historyEntry) {
@@ -306,7 +306,7 @@ function handlePostToolUse(input: HookInput): void {
 
 				// Only remove from active agents array if no more incomplete agents of this type exist
 				const hasMoreIncomplete = state.agents_history.some(
-					(a) => a.name === subagentType && !a.completed_at,
+					(a) => a.name === subagentType && !a.completed_at
 				);
 
 				if (!hasMoreIncomplete) {

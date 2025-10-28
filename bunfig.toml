@@ -1,0 +1,85 @@
+# Bun Runtime Configuration
+# Documentation: https://bun.sh/docs/runtime/bunfig
+
+[install]
+# Use scoped registries if needed
+# registry = "https://registry.npmjs.org"
+
+# Auto-install peer dependencies
+auto = true
+
+# Disable telemetry
+telemetry = false
+
+# Frozen lockfile in CI
+production = false
+
+[run]
+# Enable hot reloading in development
+hot = false
+
+# Automatically load .env files
+loadEnv = true
+
+[test]
+# Test runner configuration (use Vitest, not Bun's test runner)
+
+# Timeout for tests (5 seconds)
+timeout = 5000
+
+[loader]
+# File type loaders
+".tsx" = "tsx"
+".ts" = "ts"
+".jsx" = "jsx"
+".js" = "js"
+".json" = "json"
+".txt" = "text"
+".md" = "text"
+
+[define]
+# React 19 feature flags (if needed)
+"__DEV__" = "true"
+
+[bundler]
+# Bundler configuration for production builds
+treeshaking = true
+minify = true
+sourcemap = "external"
+target = "bun"
+
+# Splitting for better caching
+splitting = true
+
+# Deduplicate modules
+dedupe = true
+
+# Naming convention for output files
+[bundler.naming]
+entry = "[dir]/[name].[ext]"
+chunk = "[name]-[hash].[ext]"
+asset = "[name]-[hash].[ext]"
+
+# Exclude test files and examples from bundle
+[bundler.exclude]
+patterns = [
+  "**/*.test.ts",
+  "**/*.test.tsx",
+  "**/examples/**",
+  "**/__tests__/**",
+  "**/__mocks__/**"
+]
+
+[bundler.optimization]
+# Optimization settings
+removeUnusedImports = true
+
+# External dependencies (not bundled)
+external = [
+  "react",
+  "react-reconciler",
+  "effect",
+  "@effect/platform",
+  "@effect/schema",
+  "@effect/platform-node"
+]

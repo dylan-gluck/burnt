@@ -5,10 +5,13 @@ node_modules
 out
 dist
 *.tgz
+build
 
 # code coverage
 coverage
 *.lcov
+.nyc_output
+coverage.json
 
 # logs
 logs
@@ -26,6 +29,12 @@ report.[0-9]_.[0-9]_.[0-9]_.[0-9]_.json
 .eslintcache
 .cache
 *.tsbuildinfo
+.turbo
+.vitest
+
+# Test outputs
+test-results
+playwright-report
 
 # IntelliJ based IDEs
 .idea

@@ -12,7 +12,7 @@
 
 **Implementation steps:**
 1. Initialize Bun project with `bun init`
-2. Configure `package.json` with dependencies:
+2. Use `bun add` to add dependencies:
    - react@19.x
    - @effect/platform@latest
    - @effect/schema@latest
@@ -20,8 +20,8 @@
    - @biomejs/biome@latest (dev)
    - @types/react@19.x (dev)
    - vitest@latest (dev)
-3. Create `tsconfig.json` with strict TypeScript settings
-4. Create `bunfig.toml` for Bun configuration
+3. Update `tsconfig.json` with strict TypeScript settings
+4. Update `bunfig.toml` with Bun configuration
 5. Set up Biome for linting and formatting (biome.json)
 6. Create project directory structure:
    ```

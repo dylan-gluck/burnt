@@ -1,0 +1,2 @@
+# Platform - Bun
+Bun-specific implementations: FFI bindings, optimized buffers, native APIs
